@@ -1,0 +1,661 @@
+
+> adani-clone@0.1.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 2.1s
+ ○ Compiling / ...
+ ✓ Compiled / in 14s (1771 modules)
+ GET / 200 in 15023ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1924ms (1695 modules)
+ GET / 404 in 2447ms
+ GET /_next/static/css/app/layout.css?v=1786685318428 404 in 81ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 258ms
+ GET /_next/static/chunks/main-app.js?v=1786685318428 404 in 262ms
+ ✓ Compiled /favicon.ico in 396ms (889 modules)
+ GET /favicon.ico 200 in 679ms
+ ✓ Compiled in 1015ms (1727 modules)
+ ✓ Compiled in 953ms (1727 modules)
+ ✓ Compiled in 1841ms (1725 modules)
+ ✓ Compiled in 762ms (836 modules)
+ ✓ Compiled in 1954ms (836 modules)
+ ✓ Compiled / in 274ms (856 modules)
+ GET / 200 in 1123ms
+ ✓ Compiled /favicon.ico in 172ms (888 modules)
+ GET /favicon.ico 200 in 327ms
+ GET / 200 in 775ms
+ GET /favicon.ico 200 in 33ms
+ GET / 200 in 280ms
+ GET /favicon.ico 200 in 30ms
+ ✓ Compiled in 1032ms (1724 modules)
+ ✓ Compiled in 672ms (1724 modules)
+ GET / 200 in 846ms
+ GET /favicon.ico 200 in 78ms
+ GET / 200 in 302ms
+ GET /favicon.ico 200 in 32ms
+ ✓ Compiled in 1247ms (1724 modules)
+ GET / 200 in 587ms
+ GET /favicon.ico 200 in 44ms
+ GET / 200 in 96ms
+ GET /favicon.ico 200 in 13ms
+ ○ Compiling /about-us ...
+ ✓ Compiled /about-us in 870ms (1727 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /about-us 200 in 1336ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1154ms (1730 modules)
+ ○ Compiling /rooms ...
+ ✓ Compiled /rooms in 970ms (1738 modules)
+ GET /rooms 200 in 1623ms
+ ○ Compiling /rooms/[slug] ...
+ ✓ Compiled /rooms/[slug] in 1214ms (1742 modules)
+ GET /rooms/deluxe-room 200 in 3649ms
+ GET /rooms/luxury-room 200 in 97ms
+ GET /rooms/suite-room 200 in 95ms
+ ○ Compiling /amenities ...
+ ✓ Compiled /amenities in 738ms (1760 modules)
+ GET /amenities 200 in 1075ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 873ms (1771 modules)
+ GET /gallery 200 in 1154ms
+ ○ Compiling /location ...
+ ✓ Compiled /location in 681ms (1778 modules)
+ GET /location 200 in 927ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 609ms (1783 modules)
+ GET /contact 200 in 900ms
+ ○ Compiling /book-now ...
+ ✓ Compiled /book-now in 724ms (1802 modules)
+ GET /book-now 200 in 956ms
+ ○ Compiling /guest-policies ...
+ ✓ Compiled /guest-policies in 664ms (1805 modules)
+ GET /guest-policies 200 in 878ms
+ ○ Compiling /cancellation-policy ...
+ ✓ Compiled /cancellation-policy in 675ms (1807 modules)
+ GET /cancellation-policy 200 in 923ms
+ ○ Compiling /faq ...
+ ✓ Compiled /faq in 1176ms (1819 modules)
+ GET /faq 200 in 1596ms
+ ○ Compiling /privacy-policy ...
+ ✓ Compiled /privacy-policy in 770ms (1821 modules)
+ GET /privacy-policy 200 in 1064ms
+ GET /terms-conditions 404 in 106ms
+ GET / 200 in 159ms
+ GET /about-us 200 in 113ms
+ GET /rooms 200 in 111ms
+ GET /rooms/deluxe-room 200 in 304ms
+ GET /rooms/luxury-room 200 in 107ms
+ GET /rooms/suite-room 200 in 92ms
+ GET /amenities 200 in 108ms
+ GET /gallery 200 in 101ms
+ GET /location 200 in 106ms
+ GET /contact 200 in 121ms
+ GET /book-now 200 in 118ms
+ GET /guest-policies 200 in 74ms
+ GET /cancellation-policy 200 in 87ms
+ GET /faq 200 in 75ms
+ GET /privacy-policy 200 in 81ms
+ GET /terms-conditions 404 in 46ms
+ GET / 200 in 87ms
+ GET /about-us 200 in 71ms
+ GET /rooms 200 in 71ms
+ GET /rooms/deluxe-room 200 in 85ms
+ GET /rooms/luxury-room 200 in 68ms
+ GET /rooms/suite-room 200 in 103ms
+ GET /amenities 200 in 82ms
+ GET /gallery 200 in 70ms
+ GET /location 200 in 67ms
+ GET /contact 200 in 63ms
+ GET /book-now 200 in 52ms
+ GET /guest-policies 200 in 51ms
+ GET /cancellation-policy 200 in 52ms
+ GET /faq 200 in 101ms
+ GET /privacy-policy 200 in 626ms
+ GET /terms-conditions 404 in 74ms
+ GET / 200 in 106ms
+ GET /about-us 200 in 97ms
+ GET /rooms 200 in 108ms
+ GET /rooms/deluxe-room 200 in 99ms
+ GET /rooms/luxury-room 200 in 74ms
+ GET /rooms/suite-room 200 in 147ms
+ GET /amenities 200 in 93ms
+ GET /gallery 200 in 43ms
+ GET /location 200 in 78ms
+ GET /contact 200 in 150ms
+ GET /book-now 200 in 70ms
+ GET /guest-policies 200 in 71ms
+ GET /cancellation-policy 200 in 55ms
+ GET /faq 200 in 102ms
+ GET /privacy-policy 200 in 77ms
+ GET /terms-conditions 404 in 55ms
+ GET / 200 in 110ms
+ GET /about-us 200 in 107ms
+ GET /rooms 200 in 107ms
+ GET /rooms/deluxe-room 200 in 101ms
+ GET /rooms/luxury-room 200 in 109ms
+ GET /rooms/suite-room 200 in 76ms
+ GET /amenities 200 in 126ms
+ GET /gallery 200 in 63ms
+ GET /location 200 in 109ms
+ GET /contact 200 in 81ms
+ GET /book-now 200 in 61ms
+ GET /guest-policies 200 in 49ms
+ GET /cancellation-policy 200 in 71ms
+ GET /faq 200 in 58ms
+ GET /privacy-policy 200 in 62ms
+ GET /terms-conditions 404 in 71ms
+ ✓ Compiled in 6.6s (1794 modules)
+ GET / 200 in 1860ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1259ms (902 modules)
+ GET /favicon.ico 200 in 1648ms
+ ○ Compiling /about-us ...
+ ✓ Compiled /about-us in 1619ms (911 modules)
+ GET /about-us 200 in 3223ms
+ GET /rooms 200 in 118ms
+ ○ Compiling /rooms/[slug] ...
+ ✓ Compiled /rooms/[slug] in 551ms (915 modules)
+ GET /rooms/deluxe-room 200 in 943ms
+ GET /rooms/luxury-room 200 in 109ms
+ GET /rooms/suite-room 200 in 117ms
+ ✓ Compiled /amenities in 411ms (933 modules)
+ GET /amenities 200 in 927ms
+ ✓ Compiled /gallery in 343ms (940 modules)
+ GET /gallery 200 in 645ms
+ ✓ Compiled /location in 418ms (947 modules)
+ GET /location 200 in 1143ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 1191ms (951 modules)
+ GET /contact 200 in 1677ms
+ ○ Compiling /book-now ...
+ ✓ Compiled /book-now in 849ms (962 modules)
+ GET /book-now 200 in 1379ms
+ ○ Compiling /guest-policies ...
+ ✓ Compiled /guest-policies in 563ms (964 modules)
+ GET /guest-policies 200 in 992ms
+ GET /cancellation-policy 200 in 306ms
+ ○ Compiling /faq ...
+ ✓ Compiled /faq in 931ms (973 modules)
+ GET /faq 200 in 1682ms
+ ○ Compiling /privacy-policy ...
+ ✓ Compiled /privacy-policy in 740ms (975 modules)
+ GET /privacy-policy 200 in 1726ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2.9s (1821 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/e56109ec7020e981.webpack.hot-update.json 404 in 1945ms
+ GET /terms-conditions 404 in 3710ms
+ GET /privacy-policy 200 in 264ms
+ GET /favicon.ico 200 in 21ms
+ GET / 200 in 439ms
+ GET /favicon.ico 200 in 32ms
+ GET /about-us 200 in 115ms
+ GET /rooms 200 in 542ms
+ GET /rooms/deluxe-room 200 in 168ms
+ GET /rooms/luxury-room 200 in 345ms
+ GET /rooms/suite-room 200 in 489ms
+ GET /amenities 200 in 589ms
+ GET /gallery 200 in 151ms
+ GET /location 200 in 1044ms
+ GET /contact 200 in 708ms
+ GET /book-now 200 in 216ms
+ GET /guest-policies 200 in 251ms
+ GET /cancellation-policy 200 in 344ms
+ GET /faq 200 in 190ms
+ GET /privacy-policy 200 in 103ms
+ GET /terms-conditions 404 in 74ms
+ GET / 200 in 146ms
+ GET /about-us 200 in 102ms
+ GET /rooms 200 in 126ms
+ GET /rooms/deluxe-room 200 in 114ms
+ GET /rooms/luxury-room 200 in 148ms
+ GET /rooms/suite-room 200 in 203ms
+ GET /amenities 200 in 128ms
+ GET /gallery 200 in 104ms
+ GET /location 200 in 118ms
+ GET /contact 200 in 125ms
+ GET /book-now 200 in 645ms
+ GET /guest-policies 200 in 71ms
+ GET /cancellation-policy 200 in 98ms
+ GET /faq 200 in 105ms
+ GET /privacy-policy 200 in 91ms
+ GET /terms-conditions 404 in 79ms
+ GET / 200 in 308ms
+ GET /about-us 200 in 453ms
+ GET /rooms 200 in 158ms
+ GET /rooms/deluxe-room 200 in 260ms
+ GET /rooms/luxury-room 200 in 752ms
+ GET /rooms/suite-room 200 in 594ms
+ GET /amenities 200 in 319ms
+ GET /gallery 200 in 340ms
+ GET /location 200 in 144ms
+ GET /contact 200 in 163ms
+ GET /book-now 200 in 123ms
+ GET /guest-policies 200 in 102ms
+ GET /cancellation-policy 200 in 99ms
+ GET /faq 200 in 265ms
+ GET /privacy-policy 200 in 123ms
+ GET /terms-conditions 404 in 100ms
+ GET / 200 in 212ms
+ GET /about-us 200 in 351ms
+ GET /rooms 200 in 278ms
+ GET /rooms/deluxe-room 200 in 281ms
+ GET /rooms/luxury-room 200 in 273ms
+ GET /rooms/suite-room 200 in 259ms
+ GET /amenities 200 in 396ms
+ GET /gallery 200 in 194ms
+ GET /location 200 in 87ms
+ GET /contact 200 in 149ms
+ GET /book-now 200 in 94ms
+ GET /guest-policies 200 in 99ms
+ GET /cancellation-policy 200 in 78ms
+ GET /faq 200 in 277ms
+ GET /privacy-policy 200 in 84ms
+ GET /terms-conditions 404 in 73ms
+ GET / 200 in 149ms
+ GET /favicon.ico 200 in 76ms
+ GET / 200 in 112ms
+ GET /favicon.ico 200 in 24ms
+ ✓ Compiled in 2.2s (1780 modules)
+ GET / 200 in 770ms
+ GET /favicon.ico 200 in 79ms
+ ✓ Compiled /about-us in 514ms (920 modules)
+ GET /about-us 200 in 1021ms
+ ○ Compiling /rooms ...
+ ✓ Compiled /rooms in 525ms (925 modules)
+ GET /rooms 200 in 1003ms
+ ✓ Compiled /rooms/[slug] in 327ms (929 modules)
+ GET /rooms/deluxe-room 200 in 696ms
+ GET /rooms/luxury-room 200 in 126ms
+ GET /rooms/suite-room 200 in 107ms
+ ✓ Compiled /amenities in 371ms (946 modules)
+ GET /amenities 200 in 665ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 2.1s (953 modules)
+ GET /gallery 200 in 3563ms
+ GET /location 200 in 226ms
+ GET /contact 200 in 196ms
+ ○ Compiling /book-now ...
+ ✓ Compiled /book-now in 1038ms (964 modules)
+ GET /book-now 200 in 1807ms
+ ○ Compiling /guest-policies ...
+ ✓ Compiled /guest-policies in 1128ms (966 modules)
+ GET /guest-policies 200 in 1790ms
+ GET /cancellation-policy 200 in 106ms
+ ○ Compiling /faq ...
+ ✓ Compiled /faq in 805ms (975 modules)
+ GET /faq 200 in 1370ms
+ GET /privacy-policy 200 in 406ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1328ms (1821 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /terms-conditions 404 in 1697ms
+ GET /_next/static/webpack/6edb1bddbba2ad5b.webpack.hot-update.json 404 in 1235ms
+ GET /privacy-policy 200 in 21ms
+ GET / 200 in 192ms
+ GET /favicon.ico 200 in 88ms
+ GET /about-us 200 in 321ms
+ GET /rooms 200 in 153ms
+ GET /rooms/deluxe-room 200 in 129ms
+ GET /rooms/luxury-room 200 in 117ms
+ GET /rooms/suite-room 200 in 183ms
+ GET /amenities 200 in 153ms
+ GET /gallery 200 in 140ms
+ GET /location 200 in 134ms
+ GET /contact 200 in 117ms
+ GET /book-now 200 in 212ms
+ GET /guest-policies 200 in 134ms
+ GET /cancellation-policy 200 in 156ms
+ GET /faq 200 in 132ms
+ GET /privacy-policy 200 in 82ms
+ GET /terms-conditions 404 in 75ms
+ GET / 200 in 110ms
+ GET /about-us 200 in 123ms
+ GET /rooms 200 in 148ms
+ GET /rooms/deluxe-room 200 in 117ms
+ GET /rooms/luxury-room 200 in 128ms
+ GET /rooms/suite-room 200 in 127ms
+ GET /amenities 200 in 133ms
+ GET /gallery 200 in 109ms
+ GET /location 200 in 122ms
+ GET /contact 200 in 133ms
+ GET /book-now 200 in 137ms
+ GET /guest-policies 200 in 127ms
+ GET /cancellation-policy 200 in 58ms
+ GET /faq 200 in 93ms
+ GET /privacy-policy 200 in 128ms
+ GET /terms-conditions 404 in 84ms
+ GET / 200 in 92ms
+ GET /about-us 200 in 121ms
+ GET /rooms 200 in 124ms
+ GET /rooms/deluxe-room 200 in 116ms
+ GET /rooms/luxury-room 200 in 131ms
+ GET /rooms/suite-room 200 in 114ms
+ GET /amenities 200 in 119ms
+ GET /gallery 200 in 107ms
+ GET /location 200 in 123ms
+ GET /contact 200 in 126ms
+ GET /book-now 200 in 86ms
+ GET /guest-policies 200 in 123ms
+ GET /cancellation-policy 200 in 70ms
+ GET /faq 200 in 136ms
+ GET /privacy-policy 200 in 121ms
+ GET /terms-conditions 404 in 76ms
+ GET / 200 in 166ms
+ GET /about-us 200 in 106ms
+ GET /rooms 200 in 139ms
+ GET /rooms/deluxe-room 200 in 112ms
+ GET /rooms/luxury-room 200 in 114ms
+ GET /rooms/suite-room 200 in 126ms
+ GET /amenities 200 in 125ms
+ GET /gallery 200 in 107ms
+ GET /location 200 in 119ms
+ GET /contact 200 in 114ms
+ GET /book-now 200 in 108ms
+ GET /guest-policies 200 in 99ms
+ GET /cancellation-policy 200 in 92ms
+ GET /faq 200 in 102ms
+ GET /privacy-policy 200 in 93ms
+ GET /terms-conditions 404 in 88ms
+ GET / 200 in 111ms
+ GET /about-us 200 in 135ms
+ GET /rooms 200 in 146ms
+ GET /rooms/deluxe-room 200 in 116ms
+ GET /rooms/luxury-room 200 in 107ms
+ GET /rooms/suite-room 200 in 100ms
+ GET /amenities 200 in 132ms
+ GET /gallery 200 in 90ms
+ GET /location 200 in 135ms
+ GET /contact 200 in 109ms
+ GET /book-now 200 in 89ms
+ GET /guest-policies 200 in 196ms
+ GET /cancellation-policy 200 in 88ms
+ GET /faq 200 in 140ms
+ GET /privacy-policy 200 in 102ms
+ GET /terms-conditions 404 in 110ms
+ GET / 200 in 132ms
+ GET /about-us 200 in 165ms
+ GET /rooms 200 in 104ms
+ GET /rooms/deluxe-room 200 in 109ms
+ GET /rooms/luxury-room 200 in 121ms
+ GET /rooms/suite-room 200 in 97ms
+ GET /amenities 200 in 128ms
+ GET /gallery 200 in 110ms
+ GET /location 200 in 102ms
+ GET /contact 200 in 100ms
+ GET /book-now 200 in 79ms
+ GET /guest-policies 200 in 83ms
+ GET /cancellation-policy 200 in 103ms
+ GET /faq 200 in 141ms
+ GET /privacy-policy 200 in 100ms
+ GET /terms-conditions 404 in 75ms
+ GET / 200 in 97ms
+ GET /about-us 200 in 103ms
+ GET /rooms 200 in 138ms
+ GET /rooms/deluxe-room 200 in 123ms
+ GET /rooms/luxury-room 200 in 142ms
+ GET /rooms/suite-room 200 in 124ms
+ GET /amenities 200 in 144ms
+ GET /gallery 200 in 87ms
+ GET /location 200 in 137ms
+ GET /contact 200 in 246ms
+ GET /book-now 200 in 229ms
+ GET /guest-policies 200 in 133ms
+ GET /cancellation-policy 200 in 117ms
+ GET /faq 200 in 119ms
+ GET /privacy-policy 200 in 98ms
+ GET /terms-conditions 404 in 67ms
+ GET / 200 in 120ms
+ GET /favicon.ico 200 in 43ms
+ GET / 200 in 152ms
+ GET /favicon.ico 200 in 26ms
+ ✓ Compiled in 2.3s (1770 modules)
+ GET / 200 in 1332ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1103ms (1757 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/e644d8f43d41afe7.webpack.hot-update.json 404 in 1547ms
+ ○ Compiling /rooms ...
+ ✓ Compiled /rooms in 573ms (921 modules)
+ ✓ Compiled in 0ms (926 modules)
+ ✓ Compiled in 0ms (926 modules)
+ ✓ Compiled in 0ms (926 modules)
+ GET /rooms 200 in 2927ms
+ ○ Compiling /rooms/[slug] ...
+ ✓ Compiled /rooms/[slug] in 975ms (930 modules)
+ GET /rooms/deluxe-room 200 in 1319ms
+ GET /rooms/luxury-room 200 in 114ms
+ GET /rooms/suite-room 200 in 163ms
+ ✓ Compiled /amenities in 411ms (947 modules)
+ GET /amenities 200 in 831ms
+ ○ Compiling /gallery ...
+ ✓ Compiled /gallery in 638ms (954 modules)
+ GET /gallery 200 in 1059ms
+ GET /location 200 in 158ms
+ GET /contact 200 in 121ms
+ ○ Compiling /book-now ...
+ ✓ Compiled /book-now in 580ms (965 modules)
+ GET /book-now 200 in 1018ms
+ ○ Compiling /guest-policies ...
+ ✓ Compiled /guest-policies in 564ms (967 modules)
+ GET /guest-policies 200 in 936ms
+ GET /cancellation-policy 200 in 141ms
+ ○ Compiling /faq ...
+ ✓ Compiled /faq in 982ms (976 modules)
+ GET /faq 200 in 1574ms
+ GET /privacy-policy 200 in 111ms
+ GET /terms-conditions 404 in 54ms
+ GET / 200 in 151ms
+ GET /about-us 200 in 106ms
+ GET /rooms 200 in 79ms
+ GET /rooms/deluxe-room 200 in 139ms
+ GET /rooms/luxury-room 200 in 105ms
+ GET /rooms/suite-room 200 in 97ms
+ GET /amenities 200 in 117ms
+ GET /gallery 200 in 86ms
+ GET /location 200 in 76ms
+ GET /contact 200 in 98ms
+ GET /book-now 200 in 298ms
+ GET /guest-policies 200 in 63ms
+ GET /cancellation-policy 200 in 78ms
+ GET /faq 200 in 196ms
+ GET /privacy-policy 200 in 165ms
+ GET /terms-conditions 404 in 500ms
+ GET / 200 in 177ms
+ GET /about-us 200 in 72ms
+ GET /rooms 200 in 66ms
+ GET /rooms/deluxe-room 200 in 117ms
+ GET /rooms/luxury-room 200 in 81ms
+ GET /rooms/suite-room 200 in 100ms
+ GET /amenities 200 in 92ms
+ GET /gallery 200 in 86ms
+ GET /location 200 in 113ms
+ GET /contact 200 in 105ms
+ GET /book-now 200 in 61ms
+ GET /guest-policies 200 in 103ms
+ GET /cancellation-policy 200 in 79ms
+ GET /faq 200 in 82ms
+ GET /privacy-policy 200 in 80ms
+ GET /terms-conditions 404 in 51ms
+ GET / 200 in 284ms
+ GET /about-us 200 in 90ms
+ GET /rooms 200 in 68ms
+ GET /rooms/deluxe-room 200 in 106ms
+ GET /rooms/luxury-room 200 in 96ms
+ GET /rooms/suite-room 200 in 138ms
+ GET /amenities 200 in 128ms
+ GET /gallery 200 in 65ms
+ GET /location 200 in 81ms
+ GET /contact 200 in 86ms
+ GET /book-now 200 in 84ms
+ GET /guest-policies 200 in 71ms
+ GET /cancellation-policy 200 in 69ms
+ GET /faq 200 in 105ms
+ GET /privacy-policy 200 in 74ms
+ GET /terms-conditions 404 in 60ms
+ GET / 200 in 118ms
+ GET /about-us 200 in 101ms
+ GET /rooms 200 in 84ms
+ GET /rooms/deluxe-room 200 in 98ms
+ GET /rooms/luxury-room 200 in 94ms
+ GET /rooms/suite-room 200 in 118ms
+ GET /amenities 200 in 105ms
+ GET /gallery 200 in 53ms
+ GET /location 200 in 91ms
+ GET /contact 200 in 72ms
+ GET /book-now 200 in 70ms
+ GET /guest-policies 200 in 87ms
+ GET /cancellation-policy 200 in 68ms
+ GET /faq 200 in 114ms
+ GET /privacy-policy 200 in 113ms
+ GET /terms-conditions 404 in 83ms
+ GET / 200 in 150ms
+ GET /about-us 200 in 73ms
+ GET /rooms 200 in 76ms
+ GET /rooms/deluxe-room 200 in 108ms
+ GET /rooms/luxury-room 200 in 106ms
+ GET /rooms/suite-room 200 in 100ms
+ GET /amenities 200 in 117ms
+ GET /gallery 200 in 63ms
+ GET /location 200 in 77ms
+ GET /contact 200 in 212ms
+ GET /book-now 200 in 70ms
+ GET /guest-policies 200 in 76ms
+ GET /cancellation-policy 200 in 82ms
+ GET /faq 200 in 86ms
+ GET /privacy-policy 200 in 83ms
+ GET /terms-conditions 404 in 59ms
+ GET / 200 in 144ms
+ GET /about-us 200 in 90ms
+ GET /rooms 200 in 97ms
+ GET /rooms/deluxe-room 200 in 103ms
+ GET /rooms/luxury-room 200 in 117ms
+ GET /rooms/suite-room 200 in 100ms
+ GET /amenities 200 in 108ms
+ GET /gallery 200 in 60ms
+ GET /location 200 in 99ms
+ GET /contact 200 in 83ms
+ GET /book-now 200 in 56ms
+ GET /guest-policies 200 in 103ms
+ GET /cancellation-policy 200 in 68ms
+ GET /faq 200 in 121ms
+ GET /privacy-policy 200 in 224ms
+ GET /terms-conditions 404 in 61ms
+ GET / 200 in 79ms
+ GET /about-us 200 in 70ms
+ GET /rooms 200 in 101ms
+ GET /rooms/deluxe-room 200 in 115ms
+ GET /rooms/luxury-room 200 in 99ms
+ GET /rooms/suite-room 200 in 93ms
+ GET /amenities 200 in 102ms
+ GET /gallery 200 in 57ms
+ GET /location 200 in 95ms
+ GET /contact 200 in 77ms
+ GET /book-now 200 in 58ms
+ GET /guest-policies 200 in 102ms
+ GET /cancellation-policy 200 in 69ms
+ GET /faq 200 in 102ms
+ GET /privacy-policy 200 in 102ms
+ GET /terms-conditions 404 in 48ms
+ GET /about-us 200 in 102ms
+ GET /favicon.ico 200 in 65ms
+ GET / 200 in 76ms
+ GET / 200 in 327ms
+ GET /favicon.ico 200 in 51ms
+ GET / 200 in 347ms
+ GET / 200 in 756ms
+ GET / 200 in 409ms
+ GET / 200 in 253ms
+ GET / 200 in 386ms
+ GET / 200 in 211ms
+ GET / 200 in 313ms
+ GET / 200 in 307ms
+ ✓ Compiled in 6.9s (1768 modules)
+ GET / 200 in 1120ms
+ GET /favicon.ico 200 in 76ms
+ GET / 200 in 1425ms
+ GET / 200 in 5335ms
+ GET / 200 in 2923ms
+ GET / 200 in 530ms
+ GET / 200 in 3359ms
+ GET /favicon.ico 200 in 221ms
+ GET / 200 in 6268ms
+ GET /favicon.ico 200 in 70ms
+ GET / 200 in 232ms
+ GET /favicon.ico 200 in 21ms
+ GET / 200 in 175ms
+ GET /favicon.ico 200 in 22ms
+ GET / 200 in 196ms
+ GET /favicon.ico 200 in 30ms
+ GET / 200 in 218ms
+ GET /favicon.ico 200 in 42ms
+ GET / 200 in 199ms
+ GET /favicon.ico 200 in 60ms
+ GET / 200 in 174ms
+ GET /favicon.ico 200 in 27ms
+ GET / 200 in 883ms
+ GET /favicon.ico 200 in 60ms
+ GET / 200 in 323ms
+ GET /favicon.ico 200 in 50ms
+ ✓ Compiled in 2.8s (1768 modules)
+ GET / 200 in 2133ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 2.5s (1757 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/5852cfab4b3f1d26.webpack.hot-update.json 404 in 1707ms
+ GET / 200 in 780ms
+ GET / 200 in 364ms
+ GET /favicon.ico 200 in 134ms
+ GET / 200 in 239ms
+ GET /favicon.ico 200 in 46ms
+ GET / 200 in 389ms
+ GET /favicon.ico 200 in 77ms
+ GET / 200 in 333ms
+ GET /favicon.ico 200 in 38ms
+ GET / 200 in 310ms
+ GET /favicon.ico 200 in 45ms
+ GET / 200 in 323ms
+ GET /favicon.ico 200 in 68ms
+ GET / 200 in 202ms
+ GET /favicon.ico 200 in 39ms
+ GET / 200 in 523ms
+ GET /favicon.ico 200 in 43ms
+ GET / 200 in 336ms
+ GET /favicon.ico 200 in 37ms
+ GET / 200 in 864ms
+ GET /favicon.ico 200 in 66ms
+ ✓ Compiled in 1542ms (1768 modules)
+ GET / 200 in 1463ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 1173ms (1757 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/cfe00db2c06df33f.webpack.hot-update.json 404 in 1069ms
+ GET / 200 in 227ms
+ GET / 200 in 211ms
+ GET /favicon.ico 200 in 114ms
+ GET / 200 in 375ms
+ GET /favicon.ico 200 in 44ms
+ GET / 200 in 226ms
+ GET /favicon.ico 200 in 49ms
+ GET / 200 in 435ms
+ GET /favicon.ico 200 in 51ms
+ GET / 200 in 267ms
+ GET /favicon.ico 200 in 30ms
+ GET / 200 in 301ms
+ GET /favicon.ico 200 in 32ms
+ GET / 200 in 225ms
+ GET /favicon.ico 200 in 39ms
+ GET / 200 in 520ms
+ GET /favicon.ico 200 in 71ms
+ GET / 200 in 664ms
+ GET /favicon.ico 200 in 47ms
+ ✓ Compiled in 10s (1736 modules)
+ ✓ Compiled in 1543ms (857 modules)
+ ○ Compiling /about-us ...
+ ✓ Compiled /about-us in 2.2s (888 modules)
+ GET /about-us 200 in 3910ms
+ ✓ Compiled in 3.1s (1745 modules)
