@@ -138,13 +138,6 @@ export const ROOMS: RoomCategory[] = [
   },
 ];
 
-export const ROOM_OPTIONS = ROOMS.map((room) => ({
-  id: room.id,
-  name: room.name,
-  image: room.thumbnail,
-  summary: `${room.bed} • ${room.capacity} • Wi-Fi • AC`,
-}));
-
 export const NEARBY_ATTRACTIONS: NearbyPlace[] = [
   {
     name: "India Expo Centre & Mart",

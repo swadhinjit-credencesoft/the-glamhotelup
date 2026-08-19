@@ -68,7 +68,7 @@ export const OFFERS: OfferCard[] = [
       "Clear, helpful communication",
     ],
     cta: "Book Directly",
-    link: "/book-now",
+    link: "https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true",
     img: "/images/06.jpg",
   },
 ];

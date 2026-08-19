@@ -8,7 +8,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/about-us",
     "/amenities",
-    "/book-now",
     "/cancellation-policy",
     "/contact",
     "/faq",

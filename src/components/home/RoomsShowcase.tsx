@@ -127,7 +127,7 @@ export function RoomsShowcase() {
                             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                           </Link>
                           <Link
-                            href="/book-now"
+                            href="https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true"
                             className="inline-flex items-center gap-3 border border-white/40 hover:border-adani-orange hover:text-adani-orange text-white px-8 py-4 font-bold rounded transition-colors uppercase tracking-wide text-sm"
                           >
                             Book Now

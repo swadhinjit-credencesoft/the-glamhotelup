@@ -17,7 +17,7 @@ export const HERO_SLIDES: HeroSlide[] = [
     boldLine: "Stay in Style. Feel at Home.",
     subtitle: "A comfortable and contemporary stay in Greater Noida, ideally located near India Expo Centre & Mart.",
     ctaText: "Book Your Stay",
-    ctaLink: "/book-now",
+    ctaLink: "https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true",
   },
   {
     id: 2,
@@ -49,7 +49,7 @@ export const JOIN_US_CARDS = [
   { id: 1, label: "Deluxe Room", link: "/rooms/deluxe-room", img: "/images/deluxe-room.avif", fallback: "bg-adani-blue" },
   { id: 2, label: "Luxury Room", link: "/rooms/luxury-room", img: "/images/06.jpg", fallback: "bg-adani-orange" },
   { id: 3, label: "Suite Room", link: "/rooms/suite-room", img: "/images/suite-room.avif", fallback: "bg-adani-green" },
-  { id: 4, label: "Book Your Stay", link: "/book-now", img: "/images/welcome.avif", fallback: "bg-adani-dark" },
+  { id: 4, label: "Book Your Stay", link: "https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true", img: "/images/welcome.avif", fallback: "bg-adani-dark" },
 ];
 
 export const HOME_WELCOME = {

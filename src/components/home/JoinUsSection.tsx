@@ -39,7 +39,7 @@ export function JoinUsSection() {
             className="shrink-0"
           >
              <Link
-                href="/book-now"
+                href="https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true"
                 className="inline-flex items-center gap-3 bg-adani-blue hover:bg-adani-orange text-white px-8 py-4 rounded-full font-bold transition-all uppercase tracking-wide text-sm group"
               >
                 Book Now

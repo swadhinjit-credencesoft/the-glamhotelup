@@ -71,7 +71,7 @@ export default function RoomsPage() {
                       View Details <ArrowRight className="w-4 h-4" />
                     </Link>
                     <Link
-                      href="/book-now"
+                      href="https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true"
                       className="bg-adani-blue hover:bg-adani-orange text-white text-xs font-bold uppercase tracking-wide px-4 py-2.5 rounded-full transition-colors"
                     >
                       Book

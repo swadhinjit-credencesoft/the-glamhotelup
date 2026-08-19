@@ -40,7 +40,7 @@ export default function ContactPage() {
             <a href={MAPS.directionsUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 border-2 border-adani-blue text-adani-blue hover:bg-adani-blue hover:text-white px-8 py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-sm">
               <Navigation className="w-5 h-5" /> {CONTACT_COPY.buttons.directions}
             </a>
-            <a href="/book-now" className="inline-flex items-center gap-3 border-2 border-adani-orange text-adani-orange hover:bg-adani-orange hover:text-white px-8 py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-sm">
+            <a href="https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true" className="inline-flex items-center gap-3 border-2 border-adani-orange text-adani-orange hover:bg-adani-orange hover:text-white px-8 py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-sm">
               {CONTACT_COPY.buttons.book}
             </a>
           </div>

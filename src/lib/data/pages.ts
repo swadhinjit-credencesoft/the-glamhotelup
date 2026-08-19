@@ -1,16 +1,3 @@
-export const BOOKING_PAGE = {
-  heroTitle: "Book Your Stay",
-  heroText: "Your comfortable Greater Noida stay starts here.",
-  checkInLabel: "Check-in",
-  checkOutLabel: "Check-out",
-  guestsLabel: "Guests",
-  roomLabel: "Room Type",
-  submitLabel: "Check Availability",
-  resultsTitle: "Available Rooms",
-  resultsNote:
-    "Rates are date-specific and vary by channel. Contact us directly for the best available offer and personalised assistance.",
-};
-
 export const CONTACT_PAGE = {
   heroTitle: "Contact Us",
   introTitle: "Get In Touch",
@@ -138,7 +125,7 @@ export const SITEMAP_PAGES = [
   { label: "Guest Reviews", href: "/reviews" },
   { label: "FAQ", href: "/faq" },
   { label: "Contact Us", href: "/contact" },
-  { label: "Book Your Stay", href: "/book-now" },
+  { label: "Book Your Stay", href: "https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true" },
   { label: "Privacy Policy", href: "/privacy-policy" },
   { label: "Terms of Use", href: "/terms-of-use" },
   { label: "Guest Policies", href: "/guest-policies" },

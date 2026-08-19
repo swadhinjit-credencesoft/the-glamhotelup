@@ -67,7 +67,7 @@ export default function RoomDetailPage({ params }: Props) {
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
                 <Link
-                  href="/book-now"
+                  href="https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true"
                   className="inline-flex items-center gap-3 bg-adani-blue hover:bg-adani-orange text-white px-8 py-4 font-bold rounded transition-colors uppercase tracking-wide text-sm"
                 >
                   Book This Room <ArrowRight className="w-5 h-5" />

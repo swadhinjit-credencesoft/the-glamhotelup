@@ -4,6 +4,7 @@ export const SITE = {
   logo: "The Glam",
   tagline: "Stay in Style. Feel at Home.",
   url: "https://www.hoteltheglam.com",
+  bookingUrl: "https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true",
   description:
     "The Glam is a stylish boutique hotel in Ansal Golf Link-1, Greater Noida, ideally located near India Expo Centre & Mart, hospitals and Knowledge Park. Enjoy air-conditioned rooms, king beds, complimentary high-speed Wi-Fi, workspaces and daily housekeeping.",
   rating: "4.7",
@@ -72,7 +73,7 @@ export const FOOTER_COMPANY_LINKS = [
   { label: "Guest Reviews", href: "/reviews" },
   { label: "FAQ", href: "/faq" },
   { label: "Contact Us", href: "/contact" },
-  { label: "Book Your Stay", href: "/book-now" },
+  { label: "Book Your Stay", href: "https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true" },
 ];
 
 export const LEGAL_LINKS = [
@@ -90,5 +91,5 @@ export const POPULAR_PAGES = [
   { label: "Amenities", href: "/amenities" },
   { label: "Location", href: "/location" },
   { label: "Guest Reviews", href: "/reviews" },
-  { label: "Book Your Stay", href: "/book-now" },
+  { label: "Book Your Stay", href: "https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true" },
 ];

@@ -92,7 +92,7 @@ export function Header() {
           {/* Right Actions */}
           <div className="flex items-center gap-3 lg:gap-5 relative z-50">
             <Link
-              href="/book-now"
+              href="https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true"
               className="hidden md:inline-flex items-center bg-adani-blue hover:bg-adani-orange text-white text-sm font-bold uppercase tracking-wide px-5 py-2.5 rounded-full transition-colors shadow-md"
             >
               Book Now
@@ -159,7 +159,7 @@ export function Header() {
               ))}
               <li className="pt-2">
                 <Link
-                  href="/book-now"
+                  href="https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block text-center bg-adani-blue text-white font-bold uppercase tracking-wide text-sm px-6 py-3 rounded-full"
                 >

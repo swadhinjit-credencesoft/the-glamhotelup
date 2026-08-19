@@ -89,7 +89,7 @@ export function RoomsMegaMenu() {
                       >
                         View Room
                       </Link>
-                      <Link href="/book-now" className="text-adani-orange font-bold text-sm uppercase tracking-wide hover:text-white transition-colors">
+                      <Link href="https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true" className="text-adani-orange font-bold text-sm uppercase tracking-wide hover:text-white transition-colors">
                         Book Now
                       </Link>
                     </div>
