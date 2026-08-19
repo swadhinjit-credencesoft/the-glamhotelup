@@ -77,7 +77,6 @@ export function Footer() {
 
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
           <p>
-            © {new Date().getFullYear()} {SITE.name}. All Rights Reserved.{" "}
             Designed &amp; Developed by{" "}
             <a href="https://www.credencesoft.in/" target="_blank" rel="noopener noreferrer" className="hover:text-adani-orange transition-colors">
               CredenceSoft
