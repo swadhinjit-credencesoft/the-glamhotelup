@@ -1,11 +1,11 @@
 "use client";
 import { useState } from "react";
 import * as NavigationMenu from "@radix-ui/react-navigation-menu";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 import { Search, Globe, Menu, X, ChevronDown } from "lucide-react";
 import { NAVIGATION_ITEMS } from "@/lib/data/navigation";
-import { SITE } from "@/lib/data/site";
 import { RoomsMegaMenu } from "./MegaMenu";
 import { SearchOverlay } from "./SearchOverlay";
 import { AccessibilityBar } from "./AccessibilityBar";
@@ -13,14 +13,18 @@ import { AccessibilityBar } from "./AccessibilityBar";
 export function Header() {
   const [searchOpen, setSearchOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const { scrollY } = useScroll();
 
-  const bgOpacity = useTransform(scrollY, [0, 80], [0, 1]);
-  const headerBg = useTransform(bgOpacity, v => `rgba(255,255,255,${v})`);
-  const headerShadow = useTransform(bgOpacity, v => v > 0.5 ? "0 1px 8px rgba(0,0,0,0.1)" : "none");
-  const textColor = useTransform(bgOpacity, v => v > 0.5 ? "#000000" : "#ffffff");
-  const logoMode = useTransform(bgOpacity, v => v > 0.5 ? "dark" : "light");
-  const logoFilter = useTransform(logoMode, m => m === "dark" ? "none" : "brightness(0) invert(1)");
+  useMotionValueEvent(scrollY, "change", (latest) => {
+    setScrolled(latest > 50);
+  });
+
+  const headerBg = useTransform(scrollY, [0, 80], ["rgba(255,255,255,0)", "rgba(255,255,255,1)"]);
+  const headerShadow = useTransform(scrollY, [0, 80], ["none", "0 1px 8px rgba(0,0,0,0.1)"]);
+  const textColor = useTransform(scrollY, [0, 80], ["#ffffff", "#000000"]);
+
+  const showDarkLogo = scrolled || mobileMenuOpen;
 
   return (
     <>
@@ -34,9 +38,18 @@ export function Header() {
         <div className="container flex items-center justify-between h-16 lg:h-24">
           {/* Logo */}
           <Link href="/" className="relative z-50">
-            <motion.div style={{ filter: mobileMenuOpen ? "none" : logoFilter }}>
-               <div className="text-2xl lg:text-3xl font-bold font-heading text-adani-blue">{SITE.logo}</div>
-            </motion.div>
+            <div
+              className="relative h-10 lg:h-12 w-[120px] lg:w-[140px]"
+              style={showDarkLogo ? undefined : { mixBlendMode: "screen" as const }}
+            >
+              <Image
+                src="/glamlogo.jpg"
+                alt="The Glam"
+                fill
+                className={`object-contain ${showDarkLogo ? "" : "invert"}`}
+                priority
+              />
+            </div>
           </Link>
 
           {/* Desktop Nav */}
@@ -92,7 +105,7 @@ export function Header() {
           {/* Right Actions */}
           <div className="flex items-center gap-3 lg:gap-5 relative z-50">
             <Link
-              href="https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true"
+              href="https://bookone.io/The-Glam?bookingEngine=true"
               className="hidden md:inline-flex items-center bg-adani-blue hover:bg-adani-orange text-white text-sm font-bold uppercase tracking-wide px-5 py-2.5 rounded-full transition-colors shadow-md"
             >
               Book Now
@@ -159,7 +172,7 @@ export function Header() {
               ))}
               <li className="pt-2">
                 <Link
-                  href="https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true"
+                  href="https://bookone.io/The-Glam?bookingEngine=true"
                   onClick={() => setMobileMenuOpen(false)}
                   className="block text-center bg-adani-blue text-white font-bold uppercase tracking-wide text-sm px-6 py-3 rounded-full"
                 >

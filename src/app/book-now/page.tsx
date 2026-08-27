@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 
-const BOOKING_URL = "https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true";
+const BOOKING_URL = "https://bookone.io/The-Glam?bookingEngine=true";
 
 export default function BookNowPage() {
   useEffect(() => {

@@ -1,6 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Share2 } from "lucide-react";
-import { SITE, CONTACT, CORPORATE, SOCIAL_LINKS, FOOTER_EXPLORE_LINKS, FOOTER_COMPANY_LINKS, LEGAL_LINKS } from "@/lib/data/site";
+import { CONTACT, CORPORATE, SOCIAL_LINKS, FOOTER_EXPLORE_LINKS, FOOTER_COMPANY_LINKS, LEGAL_LINKS } from "@/lib/data/site";
 
 export function Footer() {
   return (
@@ -12,7 +13,7 @@ export function Footer() {
         <div className="flex flex-col lg:flex-row justify-between gap-12 mb-16">
           <div className="w-full lg:w-1/4">
             <Link href="/" className="inline-block mb-8">
-              <div className="text-3xl font-bold font-heading text-white">{SITE.logo}</div>
+              <Image src="/glamlogo.jpg" alt="The Glam" width={160} height={52} className="h-12 w-auto object-contain" />
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Stylish and comfortable stays in Greater Noida — near India Expo Centre & Mart.

@@ -20,7 +20,7 @@ export function JoinUsSection() {
     }));
     return [
       ...roomCards,
-      { id: 0, label: "Book Your Stay", link: "https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true", img: "/images/welcome.avif", fallback: "bg-adani-dark" },
+      { id: 0, label: "Book Your Stay", link: "https://bookone.io/The-Glam?bookingEngine=true", img: "/images/welcome.avif", fallback: "bg-adani-dark" },
     ];
   }, [rooms]);
 
@@ -58,7 +58,7 @@ export function JoinUsSection() {
             className="shrink-0"
           >
             <Link
-              href="https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true"
+              href="https://bookone.io/The-Glam?bookingEngine=true"
               className="inline-flex items-center gap-3 bg-adani-blue hover:bg-adani-orange text-white px-8 py-4 rounded-full font-bold transition-all uppercase tracking-wide text-sm group"
             >
               Book Now

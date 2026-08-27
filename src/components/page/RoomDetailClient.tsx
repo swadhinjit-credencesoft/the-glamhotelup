@@ -124,7 +124,7 @@ export function RoomDetailClient({ slug }: { slug: string }) {
               )}
 
               <div className="mt-8 flex flex-wrap items-center gap-4">
-                <Link href="https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true" className="inline-flex items-center gap-3 bg-adani-blue hover:bg-adani-orange text-white px-8 py-4 font-bold rounded transition-colors uppercase tracking-wide text-sm">
+                <Link href="https://bookone.io/The-Glam?bookingEngine=true" className="inline-flex items-center gap-3 bg-adani-blue hover:bg-adani-orange text-white px-8 py-4 font-bold rounded transition-colors uppercase tracking-wide text-sm">
                   Book This Room <ArrowRight className="w-5 h-5" />
                 </Link>
                 <Link href="https://www.google.com/maps/dir/?api=1&destination=The+Glam+Plot+No+AE-189+Block+A+Ansal+Golf+Link-1+Greater+Noida+201315" className="inline-flex items-center gap-2 border border-adani-blue text-adani-blue hover:bg-adani-blue hover:text-white px-8 py-4 font-bold rounded transition-colors uppercase tracking-wide text-sm">

@@ -125,7 +125,7 @@ export const SITEMAP_PAGES = [
   { label: "Guest Reviews", href: "/reviews" },
   { label: "FAQ", href: "/faq" },
   { label: "Contact Us", href: "/contact" },
-  { label: "Book Your Stay", href: "https://bookone.io/The-Glam-By-Sandane-Homes?bookingEngine=true" },
+  { label: "Book Your Stay", href: "https://bookone.io/The-Glam?bookingEngine=true" },
   { label: "Privacy Policy", href: "/privacy-policy" },
   { label: "Terms of Use", href: "/terms-of-use" },
   { label: "Guest Policies", href: "/guest-policies" },
