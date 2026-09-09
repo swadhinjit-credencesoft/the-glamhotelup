@@ -38,7 +38,7 @@ export function Header() {
         <div className="container flex items-center justify-between h-16 lg:h-24">
           {/* Logo */}
           <Link href="/" className="relative z-50">
-            <div className="relative h-14 lg:h-20 w-[180px] lg:w-[240px]">
+            <div className="relative h-12 lg:h-20 w-[300px] lg:w-[360px]">
               <Image
                 src="/glamlogo.png"
                 alt="The Glam"

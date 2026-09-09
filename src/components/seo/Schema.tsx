@@ -6,7 +6,7 @@ export function OrganizationSchema() {
     "@type": "Organization",
     name: SITE.name,
     url: SITE.url,
-    logo: `${SITE.url}/images/logo.png`,
+    logo: `${SITE.url}/glamlogo.png`,
     sameAs: [
       "https://www.facebook.com/SandaneHomes",
       "https://www.instagram.com/sandanehomes/",
