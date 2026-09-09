@@ -33,7 +33,7 @@ export function HeroSlider() {
                 className="w-full h-full bg-cover bg-center"
                 style={{ backgroundImage: `url(${slide.image}), linear-gradient(to right, #8A6D3B, #1B1713)` }}
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-adani-dark/90 via-adani-dark/50 to-transparent" />
+              <div className="absolute inset-0 bg-gradient-to-r from-adani-dark/80 via-adani-dark/35 to-transparent" />
             </div>
 
             <div className="container relative z-10 h-full flex flex-col justify-end pb-24 lg:pb-32">

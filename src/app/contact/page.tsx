@@ -25,7 +25,7 @@ export default function ContactPage() {
         title={CONTACT_COPY.heroTitle}
         subtitle={CONTACT_COPY.introText}
         height="h-[50vh] min-h-[400px]"
-        bgImageStyle={{ backgroundImage: "url(/images/homehero1.avif)" }}
+        bgImageStyle={{ backgroundImage: "url(/glam-july/glam-4.avif)" }}
       />
 
       <section className="py-24 bg-white">
