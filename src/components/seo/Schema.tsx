@@ -1,4 +1,4 @@
-import { SITE, CONTACT, MAPS } from "@/lib/data/site";
+import { SITE, CONTACT, MAPS } from "@/lib/config/site";
 
 export function OrganizationSchema() {
   const schema = {
@@ -6,7 +6,7 @@ export function OrganizationSchema() {
     "@type": "Organization",
     name: SITE.name,
     url: SITE.url,
-    logo: `${SITE.url}/glamlogo.png`,
+    logo: `${SITE.url}/images/glamlogo.png`,
     sameAs: [
       "https://www.facebook.com/SandaneHomes",
       "https://www.instagram.com/sandanehomes/",

@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import * as Accordion from "@radix-ui/react-accordion";
 import { ChevronDown } from "lucide-react";
-import { PageHero } from "@/components/page/PageHero";
+import { PageHero } from "@/components/shared/PageHero";
 import { BreadcrumbSchema, FaqSchema } from "@/components/seo/Schema";
-import { SITE } from "@/lib/data/site";
-import { FAQ_ITEMS } from "@/lib/data/faq";
+import { SITE } from "@/lib/config/site";
+import { FAQ_ITEMS } from "@/lib/content/faq";
 
 export const metadata: Metadata = {
   title: "Frequently Asked Questions",

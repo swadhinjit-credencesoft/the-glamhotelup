@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { PolicyPage } from "@/components/page/PolicyPage";
-import { POLICY_PAGES } from "@/lib/data/pages";
+import { PolicyPage } from "@/components/shared/PolicyPage";
+import { POLICY_PAGES } from "@/lib/content/pages";
 
 export const metadata: Metadata = {
   title: "Cancellation Policy",

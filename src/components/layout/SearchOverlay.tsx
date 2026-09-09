@@ -3,7 +3,7 @@ import { useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Search } from "lucide-react";
 import Link from "next/link";
-import { POPULAR_PAGES } from "@/lib/data/site";
+import { POPULAR_PAGES } from "@/lib/config/site";
 
 interface Props {
   open: boolean;

@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Phone, MessageCircle, Navigation, MapPin } from "lucide-react";
-import { PageHero } from "@/components/page/PageHero";
+import { PageHero } from "@/components/shared/PageHero";
 import { BreadcrumbSchema } from "@/components/seo/Schema";
-import { CONTACT, CORPORATE, MAPS, SITE } from "@/lib/data/site";
-import { CONTACT_PAGE as CONTACT_COPY } from "@/lib/data/pages";
+import { CONTACT, CORPORATE, MAPS, SITE } from "@/lib/config/site";
+import { CONTACT_PAGE as CONTACT_COPY } from "@/lib/content/pages";
 
 export const metadata: Metadata = {
   title: "Contact The Glam",
@@ -25,7 +25,7 @@ export default function ContactPage() {
         title={CONTACT_COPY.heroTitle}
         subtitle={CONTACT_COPY.introText}
         height="h-[50vh] min-h-[400px]"
-        bgImageStyle={{ backgroundImage: "url(/homehero1.avif)" }}
+        bgImageStyle={{ backgroundImage: "url(/images/homehero1.avif)" }}
       />
 
       <section className="py-24 bg-white">

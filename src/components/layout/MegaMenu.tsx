@@ -6,8 +6,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import * as Tabs from "@radix-ui/react-tabs";
 import { ChevronRight, Loader2 } from "lucide-react";
 import { useProperty } from "@/hooks/useProperty";
-import { mapApiRooms } from "@/lib/data/roomMapper";
-import { NEARBY_ATTRACTIONS } from "@/lib/data/rooms";
+import { mapApiRooms } from "@/lib/rooms/mapper";
+import { NEARBY_ATTRACTIONS } from "@/lib/content/attractions";
 
 export function RoomsMegaMenu() {
   const { rooms: apiRooms, loading } = useProperty();

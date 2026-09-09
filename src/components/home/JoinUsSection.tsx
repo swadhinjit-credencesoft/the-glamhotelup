@@ -4,7 +4,7 @@ import Link from "next/link";
 import { ArrowRight, Loader2 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useProperty } from "@/hooks/useProperty";
-import { mapApiRooms } from "@/lib/data/roomMapper";
+import { mapApiRooms } from "@/lib/rooms/mapper";
 
 export function JoinUsSection() {
   const { rooms: apiRooms, loading } = useProperty();

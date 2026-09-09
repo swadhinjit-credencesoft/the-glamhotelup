@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { SITE } from "@/lib/data/site";
+import { SITE } from "@/lib/config/site";
 
 const ROOM_SLUGS = ["deluxe-room", "suite-room", "luxury-room"];
 

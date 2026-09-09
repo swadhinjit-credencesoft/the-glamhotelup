@@ -12,7 +12,7 @@ export interface HeroSlide {
 export const HERO_SLIDES: HeroSlide[] = [
   {
     id: 1,
-    image: "/homehero1.avif",
+    image: "/images/homehero1.avif",
     eyebrow: "The Glam",
     boldLine: "Stay in Style. Feel at Home.",
     subtitle: "A comfortable and contemporary stay in Greater Noida, ideally located near India Expo Centre & Mart.",
@@ -21,7 +21,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   },
   {
     id: 2,
-    image: "/DeluxeRoom1homehero.avif",
+    image: "/images/DeluxeRoom1homehero.avif",
     title: "Comfortable Rooms, Thoughtful Details",
     subtitle: "Deluxe, Luxury and Suite rooms with king beds and private bathrooms",
     ctaText: "Explore Rooms",
@@ -29,7 +29,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   },
   {
     id: 3,
-    image: "/homehero3.avif",
+    image: "/images/homehero3.avif",
     title: "Designed for Business & Leisure",
     subtitle: "Work-friendly spaces, high-speed Wi-Fi and daily housekeeping",
     ctaText: "View Amenities",
@@ -37,7 +37,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   },
   {
     id: 4,
-    image: "/homehero1.avif",
+    image: "/images/homehero1.avif",
     title: "Near India Expo Centre & Mart",
     subtitle: "Ansal Golf Link-1 • Knowledge Park • Greater Noida",
     ctaText: "Get Directions",

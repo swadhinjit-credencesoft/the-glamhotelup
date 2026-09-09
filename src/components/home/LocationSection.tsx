@@ -8,7 +8,7 @@ import "swiper/css/pagination";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { LOCATION_PANELS } from "@/lib/data/location";
+import { LOCATION_PANELS } from "@/lib/content/location";
 
 export function LocationSection() {
   const [activeIndex, setActiveIndex] = useState(0);

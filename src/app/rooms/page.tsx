@@ -3,9 +3,9 @@ import { useMemo } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Check, ArrowRight, Loader2 } from "lucide-react";
-import { PageHero } from "@/components/page/PageHero";
+import { PageHero } from "@/components/shared/PageHero";
 import { useProperty } from "@/hooks/useProperty";
-import { mapApiRooms } from "@/lib/data/roomMapper";
+import { mapApiRooms } from "@/lib/rooms/mapper";
 
 export default function RoomsPage() {
   const { rooms: apiRooms, loading, error } = useProperty();
@@ -18,7 +18,7 @@ export default function RoomsPage() {
         title="Rooms & Suites"
         subtitle="Comfortable, well-appointed rooms designed for business and leisure travellers in Greater Noida."
         height="h-[60vh] min-h-[500px]"
-        bgImageStyle={{ backgroundImage: "url(/DeluxeRoom1homehero.avif)" }}
+        bgImageStyle={{ backgroundImage: "url(/images/DeluxeRoom1homehero.avif)" }}
       />
 
       <section className="py-24 bg-white">

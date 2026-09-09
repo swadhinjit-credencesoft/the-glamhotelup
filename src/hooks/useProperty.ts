@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect, useCallback, useMemo } from "react";
 import { fetchProperty } from "@/lib/api/fetcher";
-import { encodeImageUrl } from "@/lib/data/roomMapper";
+import { encodeImageUrl } from "@/lib/rooms/mapper";
 import type { ApiProperty, UsePropertyResult } from "@/lib/api/types";
 
 function getDefaultDates() {

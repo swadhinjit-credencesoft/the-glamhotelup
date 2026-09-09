@@ -1,4 +1,4 @@
-import { NEARBY_ATTRACTIONS } from "./rooms";
+import { NEARBY_ATTRACTIONS } from "./attractions";
 
 export const LOCATION_INTRO = {
   heading: "The Glam – Greater Noida",

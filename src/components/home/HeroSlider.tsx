@@ -8,7 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import { HERO_SLIDES } from "@/lib/data/home";
+import { HERO_SLIDES } from "@/lib/content/home";
 
 export function HeroSlider() {
   const [activeIndex, setActiveIndex] = useState(0);

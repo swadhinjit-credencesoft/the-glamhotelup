@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Check, ArrowRight } from "lucide-react";
-import { PageHero } from "@/components/page/PageHero";
+import { PageHero } from "@/components/shared/PageHero";
 import { BreadcrumbSchema } from "@/components/seo/Schema";
-import { SITE } from "@/lib/data/site";
-import { OFFERS, OFFERS_NOTE } from "@/lib/data/offers";
+import { SITE } from "@/lib/config/site";
+import { OFFERS, OFFERS_NOTE } from "@/lib/content/offers";
 
 export const metadata: Metadata = {
   title: "Offers & Enquiries",

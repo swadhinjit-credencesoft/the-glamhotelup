@@ -3,8 +3,8 @@ import { useRef } from "react";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { motion, useScroll, useTransform } from "framer-motion";
-import { WELCOME } from "@/lib/data/about";
-import { HOME_WELCOME } from "@/lib/data/home";
+import { WELCOME } from "@/lib/content/about";
+import { HOME_WELCOME } from "@/lib/content/home";
 
 export function WelcomeSection() {
   const containerRef = useRef<HTMLDivElement>(null);

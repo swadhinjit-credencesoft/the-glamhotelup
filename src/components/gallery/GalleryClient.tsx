@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { PageHero } from "@/components/page/PageHero";
-import { GALLERY } from "@/lib/data/gallery";
+import { PageHero } from "@/components/shared/PageHero";
+import { GALLERY } from "@/lib/content/gallery";
 
 const ALL = { id: "all", title: "All", description: "", images: GALLERY.flatMap((c) => c.images) };
 

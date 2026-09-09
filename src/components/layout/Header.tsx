@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-mot
 import Link from "next/link";
 import Image from "next/image";
 import { Search, Globe, Menu, X, ChevronDown } from "lucide-react";
-import { NAVIGATION_ITEMS } from "@/lib/data/navigation";
+import { NAVIGATION_ITEMS } from "@/lib/config/navigation";
 import { RoomsMegaMenu } from "./MegaMenu";
 import { SearchOverlay } from "./SearchOverlay";
 import { AccessibilityBar } from "./AccessibilityBar";
@@ -40,7 +40,7 @@ export function Header() {
           <Link href="/" className="relative z-50">
             <div className="relative h-12 lg:h-20 w-[300px] lg:w-[360px]">
               <Image
-                src="/glamlogo.png"
+                src="/images/glamlogo.png"
                 alt="The Glam"
                 fill
                 className={`object-contain transition-[filter] duration-300 ${logoInvert ? "brightness-0 invert" : ""}`}

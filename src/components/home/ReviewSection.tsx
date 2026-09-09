@@ -4,7 +4,7 @@ import { ArrowRight, Star } from "lucide-react";
 import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import { REVIEW_STATS, REVIEW_QUOTES } from "@/lib/data/reviews";
+import { REVIEW_STATS, REVIEW_QUOTES } from "@/lib/content/reviews";
 
 export function ReviewSection() {
   return (

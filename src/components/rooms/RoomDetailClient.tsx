@@ -4,8 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { Check, ChevronRight, ArrowRight, Star, Loader2 } from "lucide-react";
 import { useProperty } from "@/hooks/useProperty";
-import { mapApiRooms } from "@/lib/data/roomMapper";
-import { SITE } from "@/lib/data/site";
+import { mapApiRooms } from "@/lib/rooms/mapper";
+import { SITE } from "@/lib/config/site";
 
 const SLUG_TO_API_NAME: Record<string, string> = {
   "deluxe-room": "Deluxe Room",
@@ -36,7 +36,7 @@ export function RoomDetailClient({ slug }: { slug: string }) {
       <>
         <section className="relative w-full h-[55vh] min-h-[450px] flex items-end pb-16 bg-adani-dark text-white pt-32">
           <div className="absolute inset-0">
-            <Image src="/DeluxeRoom1homehero.avif" alt="" fill className="object-cover" />
+            <Image src="/images/DeluxeRoom1homehero.avif" alt="" fill className="object-cover" />
           </div>
           <div className="absolute inset-0 bg-gradient-to-t from-adani-dark to-transparent" />
           <div className="container relative z-10">
@@ -55,7 +55,7 @@ export function RoomDetailClient({ slug }: { slug: string }) {
       <>
         <section className="relative w-full h-[55vh] min-h-[450px] flex items-end pb-16 bg-adani-dark text-white pt-32">
           <div className="absolute inset-0">
-            <Image src="/DeluxeRoom1homehero.avif" alt="" fill className="object-cover" />
+            <Image src="/images/DeluxeRoom1homehero.avif" alt="" fill className="object-cover" />
           </div>
           <div className="absolute inset-0 bg-gradient-to-t from-adani-dark to-transparent" />
           <div className="container relative z-10">

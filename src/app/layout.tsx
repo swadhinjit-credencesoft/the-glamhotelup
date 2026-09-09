@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import { poppins, openSans, barlow } from "@/lib/fonts";
-import { SITE } from "@/lib/data/site";
+import { poppins, openSans, barlow } from "@/lib/config/fonts";
+import { SITE } from "@/lib/config/site";
 import "./globals.css";
 import { SmoothScroll } from "@/components/layout/SmoothScroll";
 import { PageTransition } from "@/components/layout/PageTransition";
-import { ThemeProvider } from "@/components/ThemeProvider";
+import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 

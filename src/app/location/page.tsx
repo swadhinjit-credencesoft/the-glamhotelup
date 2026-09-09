@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { MapPin, Phone, Navigation, Clock } from "lucide-react";
-import { PageHero } from "@/components/page/PageHero";
+import { PageHero } from "@/components/shared/PageHero";
 import { BreadcrumbSchema } from "@/components/seo/Schema";
-import { CONTACT, MAPS, SITE } from "@/lib/data/site";
-import { LOCATION_INTRO } from "@/lib/data/location";
-import { NEARBY_ATTRACTIONS } from "@/lib/data/rooms";
+import { CONTACT, MAPS, SITE } from "@/lib/config/site";
+import { LOCATION_INTRO } from "@/lib/content/location";
+import { NEARBY_ATTRACTIONS } from "@/lib/content/attractions";
 
 export const metadata: Metadata = {
   title: "Hotel Near India Expo Centre Greater Noida",
@@ -26,7 +26,7 @@ export default function LocationPage() {
         title="Location"
         subtitle="Ansal Golf Link-1, Greater Noida — near India Expo Centre & Mart."
         height="h-[55vh] min-h-[450px]"
-        bgImageStyle={{ backgroundImage: "url(/homehero3.avif)" }}
+        bgImageStyle={{ backgroundImage: "url(/images/homehero3.avif)" }}
       />
 
       <section className="py-24 bg-white">
