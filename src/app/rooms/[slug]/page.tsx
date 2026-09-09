@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { RoomDetailClient } from "@/components/page/RoomDetailClient";
 
 export function generateStaticParams() {
-  return [{ slug: "deluxe-room" }, { slug: "suite-room" }];
+  return [{ slug: "deluxe-room" }, { slug: "suite-room" }, { slug: "luxury-room" }];
 }
 
 export const metadata: Metadata = {

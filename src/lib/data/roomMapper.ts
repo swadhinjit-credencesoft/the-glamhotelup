@@ -19,13 +19,13 @@ export interface MappedRoom {
 
 const SLUG_MAP: Record<string, string> = {
   "Deluxe Room": "deluxe-room",
-  Suite: "suite",
+  Suite: "suite-room",
   "Luxury Room": "luxury-room",
 };
 
 const REVERSE_SLUG_MAP: Record<string, number> = {
   "deluxe-room": 8840,
-  suite: 8841,
+  "suite-room": 8841,
   "luxury-room": 8841,
 };
 

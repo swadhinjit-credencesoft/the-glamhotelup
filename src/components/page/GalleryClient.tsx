@@ -15,9 +15,10 @@ export function GalleryClient() {
       <PageHero
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Gallery" }]}
         title="Gallery"
-        subtitle="A glimpse of The Glam — rooms, bathrooms, common areas and lifestyle."
+        subtitle="A glimpse of The Glam — rooms, spaces and moments captured on 23 April and 5 June."
         height="h-[55vh] min-h-[450px]"
         overlayClass="bg-adani-dark opacity-80"
+        bgImageStyle={{ backgroundImage: "url(/glam-april/glam-64.png)" }}
       />
 
       <section className="py-24 bg-gray-50">

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 import { SITE } from "@/lib/data/site";
 
-const ROOM_SLUGS = ["deluxe-room", "suite-room"];
+const ROOM_SLUGS = ["deluxe-room", "suite-room", "luxury-room"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE.url;

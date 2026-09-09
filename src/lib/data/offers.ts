@@ -24,7 +24,7 @@ export const OFFERS: OfferCard[] = [
     ],
     cta: "Enquire for Corporate Stay",
     link: "/contact",
-    img: "/images/12.jpg",
+    img: "/glam-april/glam-1.jpg",
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ export const OFFERS: OfferCard[] = [
     ],
     cta: "Enquire for Expo Stay",
     link: "/contact",
-    img: "/images/01.jpg",
+    img: "/glam-june/glam-1.jpg",
   },
   {
     id: 3,
@@ -54,7 +54,7 @@ export const OFFERS: OfferCard[] = [
     ],
     cta: "Enquire for Long Stay",
     link: "/contact",
-    img: "/images/03.jpg",
+    img: "/glam-may/glam-10.jpg",
   },
   {
     id: 4,
@@ -69,7 +69,7 @@ export const OFFERS: OfferCard[] = [
     ],
     cta: "Book Directly",
     link: "https://bookone.io/The-Glam?bookingEngine=true",
-    img: "/images/06.jpg",
+    img: "/glam-july/glam-4.avif",
   },
 ];
 

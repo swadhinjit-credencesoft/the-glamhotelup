@@ -29,6 +29,7 @@ export default function FaqPage() {
         subtitle="Quick answers about your stay at The Glam."
         height="h-[45vh] min-h-[350px]"
         overlayClass="bg-adani-orange opacity-80"
+        bgImageStyle={{ backgroundImage: "url(/glam-july/glam-5.avif)" }}
       />
 
       <section className="py-24 bg-white">

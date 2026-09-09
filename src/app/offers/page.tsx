@@ -27,6 +27,7 @@ export default function OffersPage() {
         subtitle="Corporate, expo, long-stay and direct booking assistance at The Glam."
         height="h-[50vh] min-h-[400px]"
         overlayClass="bg-adani-blue opacity-80"
+        bgImageStyle={{ backgroundImage: "url(/glam-april/glam-65.png)" }}
       />
 
       <section className="py-24 bg-white">

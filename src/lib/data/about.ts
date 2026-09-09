@@ -22,10 +22,10 @@ export const ABOUT_STATS: Stat[] = [
 ];
 
 export const ABOUT_CARDS = [
-  { id: 1, title: "Rooms & Suites", link: "/rooms", img: "/images/01.jpg" },
-  { id: 2, title: "Amenities", link: "/amenities", img: "/images/12.jpg" },
-  { id: 3, title: "Location", link: "/location", img: "/images/04.jpg" },
-  { id: 4, title: "Guest Reviews", link: "/reviews", img: "/images/10.jpg" },
+  { id: 1, title: "Rooms & Suites", link: "/rooms", img: "/glam-april/glam-5.jpg" },
+  { id: 2, title: "Amenities", link: "/amenities", img: "/glam-may/glam-1.jpg" },
+  { id: 3, title: "Location", link: "/location", img: "/glam-june/glam-1.jpg" },
+  { id: 4, title: "Guest Reviews", link: "/reviews", img: "/glam-june/glam-1.jpg" },
 ];
 
 export const WELCOME = {
