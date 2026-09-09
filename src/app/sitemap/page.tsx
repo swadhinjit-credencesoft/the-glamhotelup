@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHero } from "@/components/shared/PageHero";
-import { SITEMAP_PAGES } from "@/lib/content/pages";
+import { SITEMAP_PAGES } from "@/features/legal/lib/pages";
 
 export const metadata: Metadata = {
   title: "Sitemap",

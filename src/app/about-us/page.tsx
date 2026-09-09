@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { PageHero } from "@/components/shared/PageHero";
-import { CounterNumber } from "@/components/shared/CounterNumber";
+import { CounterNumber } from "@/components/ui/CounterNumber";
 import { BreadcrumbSchema } from "@/components/seo/Schema";
-import { ABOUT_INTRO, ABOUT_STATS, ABOUT_CARDS } from "@/lib/content/about";
+import { ABOUT_INTRO, ABOUT_STATS, ABOUT_CARDS } from "@/features/about/lib/about";
 import { CORPORATE, SITE } from "@/lib/config/site";
 
 export const metadata: Metadata = {

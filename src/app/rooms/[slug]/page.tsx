@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { RoomDetailClient } from "@/components/rooms/RoomDetailClient";
+import { RoomDetailClient } from "@/features/rooms/components/RoomDetailClient";
 
 export function generateStaticParams() {
   return [{ slug: "deluxe-room" }, { slug: "suite-room" }, { slug: "luxury-room" }];

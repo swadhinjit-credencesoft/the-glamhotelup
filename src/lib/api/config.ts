@@ -1,6 +1,8 @@
 export const API_CONFIG = {
-  baseUrl: "https://api.thehotelmate.co/api/thm",
-  propertyId: 3624,
+  baseUrl:
+    process.env.NEXT_PUBLIC_HOTELMATE_API_BASE_URL ??
+    "https://api.thehotelmate.co/api/thm",
+  propertyId: Number(process.env.NEXT_PUBLIC_HOTELMATE_PROPERTY_ID ?? 3624),
 } as const;
 
 export function buildAvailabilityUrl(

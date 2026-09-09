@@ -4,8 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { Check, ArrowRight, Loader2 } from "lucide-react";
 import { PageHero } from "@/components/shared/PageHero";
-import { useProperty } from "@/hooks/useProperty";
-import { mapApiRooms } from "@/lib/rooms/mapper";
+import { useProperty } from "@/features/rooms/hooks/useProperty";
+import { mapApiRooms } from "@/features/rooms/lib/mapper";
 
 export default function RoomsPage() {
   const { rooms: apiRooms, loading, error } = useProperty();

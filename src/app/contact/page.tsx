@@ -3,7 +3,7 @@ import { Phone, MessageCircle, Navigation, MapPin } from "lucide-react";
 import { PageHero } from "@/components/shared/PageHero";
 import { BreadcrumbSchema } from "@/components/seo/Schema";
 import { CONTACT, CORPORATE, MAPS, SITE } from "@/lib/config/site";
-import { CONTACT_PAGE as CONTACT_COPY } from "@/lib/content/pages";
+import { CONTACT_PAGE as CONTACT_COPY } from "@/features/contact/lib/contact";
 
 export const metadata: Metadata = {
   title: "Contact The Glam",

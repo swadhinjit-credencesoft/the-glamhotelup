@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 import { PageHero } from "@/components/shared/PageHero";
 import { BreadcrumbSchema } from "@/components/seo/Schema";
 import { SITE } from "@/lib/config/site";
-import { REVIEW_STATS, REVIEW_THEMES, REVIEW_QUOTES, REVIEW_DISCLAIMER } from "@/lib/content/reviews";
+import { REVIEW_STATS, REVIEW_THEMES, REVIEW_QUOTES, REVIEW_DISCLAIMER } from "@/features/reviews/lib/reviews";
 import type { LucideIcon } from "lucide-react";
 import { Sparkles, Smile, Leaf, MapPin, Wallet, BedDouble } from "lucide-react";
 

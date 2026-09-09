@@ -1,9 +1,9 @@
-import { HeroSlider } from "@/components/home/HeroSlider";
-import { WelcomeSection } from "@/components/home/WelcomeSection";
-import { RoomsShowcase } from "@/components/home/RoomsShowcase";
-import { LocationSection } from "@/components/home/LocationSection";
-import { ReviewSection } from "@/components/home/ReviewSection";
-import { JoinUsSection } from "@/components/home/JoinUsSection";
+import { HeroSlider } from "@/features/home/components/HeroSlider";
+import { WelcomeSection } from "@/features/about/components/WelcomeSection";
+import { RoomsShowcase } from "@/features/rooms/components/RoomsShowcase";
+import { LocationSection } from "@/features/location/components/LocationSection";
+import { ReviewSection } from "@/features/reviews/components/ReviewSection";
+import { JoinUsSection } from "@/features/booking/components/JoinUsSection";
 import { HotelSchema, OrganizationSchema, WebSiteSchema } from "@/components/seo/Schema";
 
 export default function Home() {

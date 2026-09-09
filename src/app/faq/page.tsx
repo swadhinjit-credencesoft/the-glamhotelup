@@ -4,7 +4,7 @@ import { ChevronDown } from "lucide-react";
 import { PageHero } from "@/components/shared/PageHero";
 import { BreadcrumbSchema, FaqSchema } from "@/components/seo/Schema";
 import { SITE } from "@/lib/config/site";
-import { FAQ_ITEMS } from "@/lib/content/faq";
+import { FAQ_ITEMS } from "@/features/faq/lib/faq";
 
 export const metadata: Metadata = {
   title: "Frequently Asked Questions",

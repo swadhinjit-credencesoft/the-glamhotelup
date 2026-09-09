@@ -5,9 +5,9 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import * as Tabs from "@radix-ui/react-tabs";
 import { ChevronRight, Loader2 } from "lucide-react";
-import { useProperty } from "@/hooks/useProperty";
-import { mapApiRooms } from "@/lib/rooms/mapper";
-import { NEARBY_ATTRACTIONS } from "@/lib/content/attractions";
+import { useProperty } from "@/features/rooms/hooks/useProperty";
+import { mapApiRooms } from "@/features/rooms/lib/mapper";
+import { NEARBY_ATTRACTIONS } from "@/features/location/lib/attractions";
 
 export function RoomsMegaMenu() {
   const { rooms: apiRooms, loading } = useProperty();

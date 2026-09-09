@@ -3,8 +3,8 @@ import { MapPin, Phone, Navigation, Clock } from "lucide-react";
 import { PageHero } from "@/components/shared/PageHero";
 import { BreadcrumbSchema } from "@/components/seo/Schema";
 import { CONTACT, MAPS, SITE } from "@/lib/config/site";
-import { LOCATION_INTRO } from "@/lib/content/location";
-import { NEARBY_ATTRACTIONS } from "@/lib/content/attractions";
+import { LOCATION_INTRO } from "@/features/location/lib/location";
+import { NEARBY_ATTRACTIONS } from "@/features/location/lib/attractions";
 
 export const metadata: Metadata = {
   title: "Hotel Near India Expo Centre Greater Noida",

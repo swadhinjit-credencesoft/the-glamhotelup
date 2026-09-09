@@ -1,5 +1,5 @@
 export { API_CONFIG, buildAvailabilityUrl } from "./config";
-export { fetchProperty } from "./fetcher";
+export { fetchProperty } from "./availability";
 export type {
   ApiProperty,
   ApiRoom,
