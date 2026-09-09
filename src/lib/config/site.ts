@@ -52,11 +52,15 @@ export const MAPS = {
   coordinates: { lat: 28.4371, lng: 77.4986 },
 };
 
-export const SOCIAL_LINKS = [
-  { label: "WhatsApp", href: "https://wa.me/918796321915" },
-  { label: "Facebook", href: "https://www.facebook.com/SandaneHomes" },
-  { label: "Instagram", href: "https://www.instagram.com/sandanehomes/" },
-  { label: "Email", href: "mailto:info@hoteltheglam.com" },
+export const SOCIAL_LINKS: {
+  label: string;
+  href: string;
+  icon: "whatsapp" | "facebook" | "instagram" | "email";
+}[] = [
+  { label: "WhatsApp", href: "https://wa.me/918796321915", icon: "whatsapp" },
+  { label: "Facebook", href: "https://www.facebook.com/SandaneHomes", icon: "facebook" },
+  { label: "Instagram", href: "https://www.instagram.com/sandanehomes/", icon: "instagram" },
+  { label: "Email", href: "mailto:info@hoteltheglam.com", icon: "email" },
 ];
 
 export const FOOTER_EXPLORE_LINKS = [

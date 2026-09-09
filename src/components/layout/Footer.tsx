@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Share2 } from "lucide-react";
+import { SocialIcon } from "@/components/ui/SocialIcon";
 import { CONTACT, CORPORATE, SOCIAL_LINKS, FOOTER_EXPLORE_LINKS, FOOTER_COMPANY_LINKS, LEGAL_LINKS } from "@/lib/config/site";
 
 export function Footer() {
@@ -28,7 +28,7 @@ export function Footer() {
                   aria-label={social.label}
                   className="p-2 rounded-full bg-white/10 hover:bg-adani-blue transition-colors"
                 >
-                  <Share2 className="w-5 h-5" />
+                  <SocialIcon type={social.icon} className="w-5 h-5" />
                 </a>
               ))}
             </div>
