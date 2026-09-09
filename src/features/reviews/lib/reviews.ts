@@ -6,13 +6,13 @@ export interface ReviewQuote {
 }
 
 export const REVIEW_STATS = {
-  googleRating: "4.7",
-  googleReviews: "53",
+  googleRating: "4.8",
+  googleReviews: "71",
   platforms: [
-    { name: "Google", score: "4.7 / 5", note: "53 reviews" },
-    { name: "Booking.com", score: "8.5 / 10", note: "Based on guest reviews" },
-    { name: "Expedia", score: "8.6 / 10", note: "Based on guest reviews" },
-    { name: "Hotels.com", score: "8.8 / 10", note: "Based on guest reviews" },
+    { name: "Google", score: "4.8 / 5", note: "71 reviews" },
+    { name: "Booking.com", score: "8.2 / 10", note: "14 reviews" },
+    { name: "Agoda", score: "8.7 / 10", note: "11 reviews" },
+    { name: "MakeMyTrip", score: "4.1 / 5", note: "18 reviews" },
   ],
 };
 
@@ -29,23 +29,23 @@ export const REVIEW_QUOTES: ReviewQuote[] = [
   {
     id: 1,
     quote:
-      "A clean and comfortable stay. The staff were extremely helpful and the location is very convenient for Expo Mart.",
-    author: "Verified guest",
-    context: "Business stay",
+      "Decent service, polite behaviour of staff, and all new rooms.",
+    author: "Adarsh Kumar",
+    context: "Google review",
   },
   {
     id: 2,
     quote:
-      "Peaceful environment, comfortable room and good Wi-Fi. Great value for money in Greater Noida.",
-    author: "Verified guest",
-    context: "Leisure stay",
+      "I just loved the place and people there — recommended.",
+    author: "Vivek Yadav",
+    context: "Google review",
   },
   {
     id: 3,
     quote:
-      "Perfect for an expo visit. Well-maintained rooms and courteous service throughout our stay.",
-    author: "Verified guest",
-    context: "Expo stay",
+      "I stayed with family for two days.",
+    author: "Reuben Valadares",
+    context: "Google review",
   },
 ];
 

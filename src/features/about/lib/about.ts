@@ -16,8 +16,8 @@ export const ABOUT_INTRO = {
 
 export const ABOUT_STATS: Stat[] = [
   { id: 1, value: 22, suffix: "", label: "Guest Rooms" },
-  { id: 2, value: 4.7, suffix: "/5", label: "Google Rating" },
-  { id: 3, value: 53, suffix: "", label: "Google Reviews" },
+  { id: 2, value: 4.8, suffix: "/5", label: "Google Rating" },
+  { id: 3, value: 71, suffix: "", label: "Google Reviews" },
   { id: 4, value: 100, suffix: "+ Mbps", label: "Wi-Fi Speed" },
 ];
 

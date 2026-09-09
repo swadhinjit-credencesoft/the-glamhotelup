@@ -10,7 +10,7 @@ export const FAQ_ITEMS: FaqItem[] = [
   },
   {
     q: "What time is check-in and check-out?",
-    a: "Check-in is from 12:00 PM and check-out is at 11:00 AM.",
+    a: "Check-in is from 2:00 PM and check-out is at 12:00 PM.",
   },
   {
     q: "Does The Glam offer Wi-Fi?",

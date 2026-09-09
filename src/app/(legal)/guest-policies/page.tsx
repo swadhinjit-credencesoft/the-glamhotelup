@@ -5,7 +5,7 @@ import { POLICY_PAGES } from "@/features/legal/lib/pages";
 export const metadata: Metadata = {
   title: "Guest Policies",
   description:
-    "Guest policies at The Glam — check-in 12:00 PM, check-out 11:00 AM, ID requirements, pets and smoking policy.",
+    "Guest policies at The Glam — check-in 2:00 PM, check-out 12:00 PM, ID requirements, pets and smoking policy.",
 };
 
 export default function GuestPoliciesPage() {

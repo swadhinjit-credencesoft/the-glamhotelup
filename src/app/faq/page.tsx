@@ -9,7 +9,7 @@ import { FAQ_ITEMS } from "@/features/faq/lib/faq";
 export const metadata: Metadata = {
   title: "Frequently Asked Questions",
   description:
-    "Check-in 12:00 PM, check-out 11:00 AM, complimentary Wi-Fi, air conditioning, no pets, couple friendly — answers to common questions about The Glam, Greater Noida.",
+    "Check-in 2:00 PM, check-out 12:00 PM, complimentary Wi-Fi, air conditioning, no pets, couple friendly — answers to common questions about The Glam, Greater Noida.",
 };
 
 export default function FaqPage() {

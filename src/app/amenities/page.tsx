@@ -3,7 +3,7 @@ import { PageHero } from "@/components/shared/PageHero";
 import { BreadcrumbSchema } from "@/components/seo/Schema";
 import { SITE } from "@/lib/config/site";
 import { ROOM_AMENITIES, HOTEL_SERVICES, AMENITY_HIGHLIGHTS } from "@/features/amenities/lib/amenities";
-import { Wifi, BedDouble, Tv, Armchair, Bath, Coffee, Sparkles, AirVent, Clock, BellRing, Zap, ShowerHead, Users, ShieldCheck, Check } from "lucide-react";
+import { Wifi, BedDouble, Tv, Armchair, Bath, Coffee, Sparkles, AirVent, Clock, BellRing, Zap, ShowerHead, Users, ShieldCheck, CarFront, TreeDeciduous, Check } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 const ICONS: Record<string, LucideIcon> = {
@@ -17,6 +17,8 @@ const ICONS: Record<string, LucideIcon> = {
   sparkles: Sparkles,
   clock: Clock,
   "concierge-bell": BellRing,
+  "car-front": CarFront,
+  "tree-deciduous": TreeDeciduous,
   power: Zap,
   shower: ShowerHead,
   users: Users,

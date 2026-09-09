@@ -8,7 +8,7 @@ import { CONTACT_PAGE as CONTACT_COPY } from "@/features/contact/lib/contact";
 export const metadata: Metadata = {
   title: "Contact The Glam",
   description:
-    "Contact The Glam in Ansal Golf Link-1, Greater Noida. Call +91 8796321915, WhatsApp us or send an enquiry. Check-in 12:00 PM, check-out 11:00 AM.",
+    "Contact The Glam in Ansal Golf Link-1, Greater Noida. Call +91 8796321915, WhatsApp us or send an enquiry. Check-in 2:00 PM, check-out 12:00 PM.",
 };
 
 export default function ContactPage() {

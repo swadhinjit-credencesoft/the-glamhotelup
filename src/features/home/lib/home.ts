@@ -63,6 +63,7 @@ export const HOME_WELCOME = {
     "Complimentary Wi-Fi",
     "Private bathrooms",
     "Work-friendly spaces",
+    "Free private parking",
     "Daily housekeeping",
   ],
 };

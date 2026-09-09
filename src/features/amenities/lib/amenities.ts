@@ -18,6 +18,8 @@ export const ROOM_AMENITIES: AmenityItem[] = [
 export const HOTEL_SERVICES: AmenityItem[] = [
   { icon: "clock", title: "24-Hour Front Desk", desc: "Round-the-clock assistance from our front desk team." },
   { icon: "concierge-bell", title: "Guest Assistance", desc: "Caretaker and guest-support team for a seamless stay." },
+  { icon: "car-front", title: "Free Private Parking", desc: "Complimentary on-site parking for guests travelling by car." },
+  { icon: "tree-deciduous", title: "Garden & Terrace", desc: "Garden, terrace and outdoor seating areas to relax and unwind." },
   { icon: "power", title: "Power Backup", desc: "Uninterrupted power backup for a worry-free experience." },
   { icon: "shower", title: "Hot Water", desc: "Consistent hot water supply in all rooms." },
   { icon: "users", title: "Couple Friendly", desc: "Couples are welcome at our property." },
@@ -32,5 +34,7 @@ export const AMENITY_HIGHLIGHTS = [
   "Work-friendly spaces & sitting areas",
   "Daily housekeeping",
   "24-hour front desk",
+  "Free private parking",
+  "Garden & terrace seating",
   "Near India Expo Centre & Mart",
 ];

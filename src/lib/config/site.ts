@@ -1,16 +1,17 @@
 export const SITE = {
   name: "The Glam",
+  fullName: "The Glam by Sandane Homes",
   shortName: "The Glam",
   logo: "The Glam",
   tagline: "Stay in Style. Feel at Home.",
   url: "https://www.hoteltheglam.com",
   bookingUrl: "https://bookone.io/The-Glam?bookingEngine=true",
   description:
-    "The Glam is a stylish boutique hotel in Ansal Golf Link-1, Greater Noida, ideally located near India Expo Centre & Mart, hospitals and Knowledge Park. Enjoy air-conditioned rooms, king beds, complimentary high-speed Wi-Fi, workspaces and daily housekeeping.",
-  rating: "4.7",
-  reviewCount: "53",
-  checkIn: "12:00 PM",
-  checkOut: "11:00 AM",
+    "The Glam by Sandane Homes is a boutique hotel in Ansal Golf Link-1, Greater Noida, ideally located near India Expo Centre & Mart, hospitals and Knowledge Park. Enjoy air-conditioned rooms, king beds, complimentary high-speed Wi-Fi, free private parking, workspaces and daily housekeeping.",
+  rating: "4.8",
+  reviewCount: "71",
+  checkIn: "2:00 PM",
+  checkOut: "12:00 PM",
   rooms: "22",
 };
 
@@ -36,7 +37,7 @@ export const CONTACT = {
 export const CORPORATE = {
   name: "The Glam",
   description:
-    "The Glam is a stylish boutique hotel in Ansal Golf Link-1, Greater Noida, catering to corporate travellers, international guests, business delegates and visitors attending India Expo Mart.",
+    "The Glam by Sandane Homes is a boutique hotel in Ansal Golf Link-1, Greater Noida, catering to corporate travellers, international guests, business delegates and visitors attending India Expo Mart.",
   telephone: "+91 8796321915",
   telephoneHref: "tel:+918796321915",
   email: "info@hoteltheglam.com",
@@ -59,7 +60,7 @@ export const SOCIAL_LINKS: {
 }[] = [
   { label: "WhatsApp", href: "https://wa.me/918796321915", icon: "whatsapp" },
   { label: "Facebook", href: "https://www.facebook.com/SandaneHomes", icon: "facebook" },
-  { label: "Instagram", href: "https://www.instagram.com/sandanehomes/", icon: "instagram" },
+  { label: "Instagram", href: "https://www.instagram.com/sandane_homes/", icon: "instagram" },
   { label: "Email", href: "mailto:info@hoteltheglam.com", icon: "email" },
 ];
 

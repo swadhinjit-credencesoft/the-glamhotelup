@@ -9,7 +9,7 @@ export function OrganizationSchema() {
     logo: `${SITE.url}/images/glamlogo.png`,
     sameAs: [
       "https://www.facebook.com/SandaneHomes",
-      "https://www.instagram.com/sandanehomes/",
+      "https://www.instagram.com/sandane_homes/",
     ],
     contactPoint: {
       "@type": "ContactPoint",
@@ -44,13 +44,13 @@ export function HotelSchema() {
     "@type": "Hotel",
     "@id": `${SITE.url}/#hotel`,
     name: SITE.name,
-    alternateName: "The Glam",
+    alternateName: SITE.fullName,
     url: SITE.url,
     description: SITE.description,
     telephone: CONTACT.telephone,
     email: CONTACT.email,
-    checkinTime: "12:00",
-    checkoutTime: "11:00",
+    checkinTime: "14:00",
+    checkoutTime: "12:00",
     numberofrooms: "22",
     priceRange: "₹₹",
     address: {

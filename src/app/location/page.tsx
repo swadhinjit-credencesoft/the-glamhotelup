@@ -9,7 +9,7 @@ import { NEARBY_ATTRACTIONS } from "@/features/location/lib/attractions";
 export const metadata: Metadata = {
   title: "Hotel Near India Expo Centre Greater Noida",
   description:
-    "The Glam is located in Ansal Golf Link-1, Greater Noida — near India Expo Centre & Mart, Knowledge Park metro, hospitals and Pari Chowk. Check in from 12:00 PM, check out by 11:00 AM.",
+    "The Glam is located in Ansal Golf Link-1, Greater Noida — near India Expo Centre & Mart, Knowledge Park metro, hospitals and Pari Chowk. Check in from 2:00 PM, check out by 12:00 PM.",
 };
 
 export default function LocationPage() {

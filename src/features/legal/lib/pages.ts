@@ -50,7 +50,7 @@ export const POLICY_PAGES = {
     sections: [
       {
         heading: "Check-in & Check-out",
-        body: "Check-in time is 12:00 PM and check-out time is 11:00 AM (as per current published information).",
+        body: "Check-in time is 2:00 PM and check-out time is 12:00 PM (as per current published information).",
       },
       {
         heading: "Guest Age",
