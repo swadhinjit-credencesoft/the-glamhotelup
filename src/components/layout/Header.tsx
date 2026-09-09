@@ -24,7 +24,7 @@ export function Header() {
   const headerShadow = useTransform(scrollY, [0, 80], ["none", "0 1px 8px rgba(0,0,0,0.1)"]);
   const textColor = useTransform(scrollY, [0, 80], ["#ffffff", "#000000"]);
 
-  const showDarkLogo = scrolled || mobileMenuOpen;
+  const logoInvert = !(scrolled || mobileMenuOpen);
 
   return (
     <>
@@ -38,15 +38,12 @@ export function Header() {
         <div className="container flex items-center justify-between h-16 lg:h-24">
           {/* Logo */}
           <Link href="/" className="relative z-50">
-            <div
-              className="relative h-10 lg:h-12 w-[120px] lg:w-[140px]"
-              style={showDarkLogo ? undefined : { mixBlendMode: "screen" as const }}
-            >
+            <div className="relative h-14 lg:h-20 w-[180px] lg:w-[240px]">
               <Image
-                src="/glamlogo.jpg"
+                src="/glamlogo.png"
                 alt="The Glam"
                 fill
-                className={`object-contain ${showDarkLogo ? "" : "invert"}`}
+                className={`object-contain transition-[filter] duration-300 ${logoInvert ? "brightness-0 invert" : ""}`}
                 priority
               />
             </div>
