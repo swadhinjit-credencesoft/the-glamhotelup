@@ -1,5 +1,5 @@
 "use client";
-import { useMemo, useEffect } from "react";
+import { useMemo } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Check, ChevronRight, ArrowRight, Star, Loader2 } from "lucide-react";
@@ -10,7 +10,7 @@ import { SITE } from "@/lib/config/site";
 const SLUG_TO_API_NAME: Record<string, string> = {
   "deluxe-room": "Deluxe Room",
   "suite-room": "Suite",
-  "luxury-room": "Suite",
+  "luxury-room": "Luxury Room",
 };
 
 export function RoomDetailClient({ slug }: { slug: string }) {
@@ -20,16 +20,26 @@ export function RoomDetailClient({ slug }: { slug: string }) {
   const room = useMemo(() => {
     const apiName = SLUG_TO_API_NAME[slug];
     if (apiName) {
-      return rooms.find((r) => r.name === apiName) ?? rooms[0];
+      const match = rooms.find(
+        (r) => r.name.toLowerCase() === apiName.toLowerCase() || r.slug === slug
+      );
+      if (match) return match;
     }
-    return rooms.find((r) => r.slug === slug) ?? rooms[0];
+    return (
+      rooms.find((r) => r.slug === slug) ??
+      (slug === "luxury-room"
+        ? {
+            ...rooms[0],
+            name: "Luxury Room",
+            slug: "luxury-room",
+            description:
+              "Enjoy a Luxury Room at The Glam, Greater Noida — generous space with king bed, sitting area, workspace and complimentary Wi-Fi, within easy reach of India Expo Mart.",
+            largeImage: "/images/suite-room.avif",
+            thumbnail: "/images/suite-room.avif",
+          }
+        : rooms[0])
+    );
   }, [rooms, slug]);
-
-  useEffect(() => {
-    if (room) {
-      document.title = `${room.name} | Rooms & Suites | ${SITE.name}`;
-    }
-  }, [room]);
 
   if (loading) {
     return (

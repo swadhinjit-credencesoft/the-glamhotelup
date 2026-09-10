@@ -25,7 +25,7 @@ export const ABOUT_CARDS = [
   { id: 1, title: "Rooms & Suites", link: "/rooms", img: "/images/opt/glam-5.jpg" },
   { id: 2, title: "Amenities", link: "/amenities", img: "/images/opt/glam-1-may.jpg" },
   { id: 3, title: "Location", link: "/location", img: "/images/opt/glam-1-june.jpg" },
-  { id: 4, title: "Guest Reviews", link: "/reviews", img: "/images/opt/glam-1-june.jpg" },
+  { id: 4, title: "Guest Reviews", link: "/reviews", img: "/images/opt/glam-62.jpg" },
 ];
 
 export const WELCOME = {

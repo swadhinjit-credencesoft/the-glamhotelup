@@ -1,5 +1,5 @@
 "use client";
-import * as Popover from "@radix-ui/react-dialog";
+import * as Dialog from "@radix-ui/react-dialog";
 import { Accessibility, Type, RefreshCcw } from "lucide-react";
 import { motion, type MotionValue } from "framer-motion";
 
@@ -22,8 +22,8 @@ export function AccessibilityBar<T extends string | number = string>({
   };
 
   return (
-    <Popover.Root>
-      <Popover.Trigger asChild>
+    <Dialog.Root>
+      <Dialog.Trigger asChild>
         <button
           aria-label="Accessibility Settings"
           className="p-3 -m-3 group"
@@ -32,20 +32,20 @@ export function AccessibilityBar<T extends string | number = string>({
             <Accessibility className="w-5 h-5 text-inherit" />
           </motion.span>
         </button>
-      </Popover.Trigger>
-      <Popover.Portal>
-        <Popover.Overlay className="fixed inset-0 z-[60] bg-black/20 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0" />
-        <Popover.Content className="fixed right-4 top-24 z-[70] w-72 rounded-xl bg-white p-6 shadow-2xl focus:outline-none border-t-4 border-adani-blue data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-right-1/2 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-right-1/2 data-[state=open]:slide-in-from-top-[48%] origin-top-right">
+      </Dialog.Trigger>
+      <Dialog.Portal>
+        <Dialog.Overlay className="fixed inset-0 z-[60] bg-black/20 data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0" />
+        <Dialog.Content className="fixed right-4 top-24 z-[70] w-72 rounded-xl bg-white p-6 shadow-2xl focus:outline-none border-t-4 border-adani-blue data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:zoom-out-95 data-[state=open]:zoom-in-95 data-[state=closed]:slide-out-to-right-1/2 data-[state=closed]:slide-out-to-top-[48%] data-[state=open]:slide-in-from-right-1/2 data-[state=open]:slide-in-from-top-[48%] origin-top-right">
           <div className="flex justify-between items-center mb-6 border-b pb-2">
-            <Popover.Title className="text-lg font-bold font-heading text-adani-blue">
+            <Dialog.Title className="text-lg font-bold font-heading text-adani-blue">
               Accessibility
-            </Popover.Title>
-            <Popover.Close asChild>
+            </Dialog.Title>
+            <Dialog.Close asChild>
               <button aria-label="Close" className="text-gray-400 hover:text-gray-800">
                 <span className="sr-only">Close</span>
                 &times;
               </button>
-            </Popover.Close>
+            </Dialog.Close>
           </div>
 
           <div className="space-y-6">
@@ -85,8 +85,8 @@ export function AccessibilityBar<T extends string | number = string>({
               <RefreshCcw className="w-4 h-4" /> Reset Settings
             </button>
           </div>
-        </Popover.Content>
-      </Popover.Portal>
-    </Popover.Root>
+        </Dialog.Content>
+      </Dialog.Portal>
+    </Dialog.Root>
   );
 }

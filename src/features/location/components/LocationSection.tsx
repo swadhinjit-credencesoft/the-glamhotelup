@@ -14,7 +14,7 @@ export function LocationSection() {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <section className="relative w-full h-[600px] lg:h-[800px] overflow-hidden">
+    <section className="relative w-full h-[520px] sm:h-[600px] lg:h-[750px] overflow-hidden">
       <Swiper
         modules={[Autoplay, EffectFade, Pagination]}
         effect="fade"
@@ -35,38 +35,38 @@ export function LocationSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-adani-dark via-adani-dark/60 to-transparent" />
             </div>
 
-            <div className="container relative z-10 h-full flex flex-col justify-center text-center lg:text-left lg:justify-end pb-24 lg:pb-32">
+            <div className="container relative z-10 h-full flex flex-col justify-center text-center lg:text-left lg:justify-end pb-20 sm:pb-24 lg:pb-32 px-4 sm:px-6 lg:px-8">
               <AnimatePresence mode="popLayout">
                 {activeIndex === index && (
                   <motion.div
-                    initial={{ opacity: 0, y: 50 }}
-                    animate={{ opacity: 1, y: 0, transition: { staggerChildren: 0.15, duration: 0.6 } }}
-                    exit={{ opacity: 0, y: -20, transition: { duration: 0.3 } }}
+                    initial={{ opacity: 0, y: 30 }}
+                    animate={{ opacity: 1, y: 0, transition: { staggerChildren: 0.1, duration: 0.4 } }}
+                    exit={{ opacity: 0, y: -20, transition: { duration: 0.2 } }}
                     className="max-w-4xl max-lg:mx-auto text-white"
                   >
-                    <motion.p className="text-adani-orange font-bold tracking-widest uppercase mb-4">
+                    <p className="text-adani-orange font-bold text-xs sm:text-sm tracking-widest uppercase mb-2 sm:mb-4">
                       {panel.eyebrow}
-                    </motion.p>
+                    </p>
 
-                    <motion.h2 className="text-4xl lg:text-7xl font-bold font-heading mb-6 lg:mb-10 leading-tight">
+                    <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold font-heading mb-4 sm:mb-6 lg:mb-10 leading-tight break-words">
                       {panel.heading}
-                    </motion.h2>
+                    </h2>
 
-                    <motion.div className="mb-10 lg:mb-14 pb-10 border-b border-white/20">
-                      <p className="font-barlow font-bold text-3xl lg:text-5xl text-white">
+                    <div className="mb-6 sm:mb-10 lg:mb-14 pb-6 sm:pb-10 border-b border-white/20">
+                      <p className="font-barlow font-bold text-2xl sm:text-3xl lg:text-5xl text-white">
                         {panel.stat}
                       </p>
-                    </motion.div>
+                    </div>
 
-                    <motion.div>
+                    <div>
                       <Link
                         href={panel.link}
-                        className="inline-flex items-center gap-3 bg-white text-adani-blue hover:bg-adani-orange hover:text-white px-8 py-4 rounded-full font-bold transition-all uppercase tracking-wide text-sm group"
+                        className="inline-flex items-center gap-2 sm:gap-3 bg-white text-adani-blue hover:bg-adani-orange hover:text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-bold transition-all uppercase tracking-wide text-xs sm:text-sm shadow-md group"
                       >
                         {panel.linkText}
-                        <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                        <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
                       </Link>
-                    </motion.div>
+                    </div>
                   </motion.div>
                 )}
               </AnimatePresence>

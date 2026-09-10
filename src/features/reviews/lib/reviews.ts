@@ -43,7 +43,7 @@ export const REVIEW_QUOTES: ReviewQuote[] = [
   {
     id: 3,
     quote:
-      "I stayed with family for two days.",
+      "I stayed with family for two days. The rooms were spotless, comfortable, and the staff was extremely helpful.",
     author: "Reuben Valadares",
     context: "Google review",
   },

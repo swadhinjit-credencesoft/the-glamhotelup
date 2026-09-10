@@ -24,7 +24,7 @@ export function WelcomeSection() {
 
           {/* Photo side */}
           <div className="w-full lg:w-5/12 ml:w-1/2 relative">
-            <motion.div style={{ y: imgY }} className="relative h-[600px] w-full rounded-2xl overflow-hidden bg-gradient-to-t from-adani-blue/20 to-transparent flex items-end justify-center">
+            <motion.div style={{ y: imgY }} className="relative h-[360px] sm:h-[480px] lg:h-[600px] w-full rounded-2xl overflow-hidden bg-gradient-to-t from-adani-blue/20 to-transparent flex items-end justify-center">
               <div
                 className="absolute inset-0 bg-cover bg-center"
                 style={{ backgroundImage: "url(/images/welcome.avif)" }}
@@ -43,15 +43,15 @@ export function WelcomeSection() {
 
           {/* Text side */}
           <div className="w-full lg:w-7/12 ml:w-1/2">
-            <div ref={textRef} className="bg-white rounded-3xl p-8 lg:p-14 shadow-2xl relative">
-              <div className="absolute -top-6 -left-6 text-8xl text-adani-blue/20 font-serif leading-none">
+            <div ref={textRef} className="bg-white rounded-3xl p-6 sm:p-8 lg:p-14 shadow-2xl relative">
+              <div className="absolute -top-4 -left-3 sm:-top-6 sm:-left-6 text-6xl sm:text-8xl text-adani-blue/20 font-serif leading-none select-none">
                 &quot;
               </div>
               <motion.h3
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
-                className="text-2xl lg:text-3xl font-heading font-bold text-adani-dark mb-6"
+                className="text-2xl sm:text-3xl font-heading font-bold text-adani-dark mb-4 sm:mb-6"
               >
                 {HOME_WELCOME.heading}
               </motion.h3>

@@ -22,14 +22,14 @@ export function GalleryClient() {
         bgImageStyle={{ backgroundImage: "url(/images/opt/glam-64.jpg)" }}
       />
 
-      <section className="py-24 bg-gray-50">
-        <div className="container">
-          <div className="flex flex-wrap justify-center gap-4 mb-16 border-b border-gray-200 pb-6">
+      <section className="py-16 sm:py-24 bg-gray-50">
+        <div className="container px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-10 sm:mb-16 border-b border-gray-200 pb-4 sm:pb-6">
             {[ALL, ...GALLERY].map((category) => (
               <button
                 key={category.id}
                 onClick={() => setActiveId(category.id)}
-                className={`px-5 py-2 font-bold text-sm uppercase tracking-wide transition-colors ${
+                className={`px-3 sm:px-5 py-2 font-bold text-xs sm:text-sm uppercase tracking-wide transition-colors ${
                   activeId === category.id ? "text-adani-blue border-b-2 border-adani-blue" : "text-gray-500 hover:text-adani-dark"
                 }`}
               >
@@ -38,7 +38,7 @@ export function GalleryClient() {
             ))}
           </div>
 
-          <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <motion.div layout className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
             {active.images.map((image, i) => (
               <motion.div
                 layout

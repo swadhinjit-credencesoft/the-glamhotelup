@@ -28,34 +28,34 @@ export default function ContactPage() {
         bgImageStyle={{ backgroundImage: "url(/glam-july/glam-4.avif)" }}
       />
 
-      <section className="py-24 bg-white">
-        <div className="container">
-          <div className="flex flex-wrap justify-center gap-4 mb-16">
-            <a href={CONTACT.telephoneHref} className="inline-flex items-center gap-3 bg-adani-blue hover:bg-adani-orange text-white px-8 py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-sm">
-              <Phone className="w-5 h-5" /> {CONTACT_COPY.buttons.call}
+      <section className="py-16 sm:py-24 bg-white">
+        <div className="container px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap justify-center gap-3 sm:gap-4 mb-12 sm:mb-16">
+            <a href={CONTACT.telephoneHref} className="inline-flex items-center justify-center gap-2 sm:gap-3 bg-adani-blue hover:bg-adani-orange text-white px-6 sm:px-8 py-3.5 sm:py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-xs sm:text-sm shadow-sm">
+              <Phone className="w-4 h-4 sm:w-5 sm:h-5" /> {CONTACT_COPY.buttons.call}
             </a>
-            <a href={CONTACT.whatsappHref} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 bg-adani-green hover:bg-adani-dark text-white px-8 py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-sm">
-              <MessageCircle className="w-5 h-5" /> {CONTACT_COPY.buttons.whatsapp}
+            <a href={CONTACT.whatsappHref} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 sm:gap-3 bg-adani-green hover:bg-adani-dark text-white px-6 sm:px-8 py-3.5 sm:py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-xs sm:text-sm shadow-sm">
+              <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5" /> {CONTACT_COPY.buttons.whatsapp}
             </a>
-            <a href={MAPS.directionsUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 border-2 border-adani-blue text-adani-blue hover:bg-adani-blue hover:text-white px-8 py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-sm">
-              <Navigation className="w-5 h-5" /> {CONTACT_COPY.buttons.directions}
+            <a href={MAPS.directionsUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 sm:gap-3 border-2 border-adani-blue text-adani-blue hover:bg-adani-blue hover:text-white px-6 sm:px-8 py-3.5 sm:py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-xs sm:text-sm">
+              <Navigation className="w-4 h-4 sm:w-5 sm:h-5" /> {CONTACT_COPY.buttons.directions}
             </a>
-            <a href="https://bookone.io/The-Glam?bookingEngine=true" className="inline-flex items-center gap-3 border-2 border-adani-orange text-adani-orange hover:bg-adani-orange hover:text-white px-8 py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-sm">
+            <a href="https://bookone.io/The-Glam?bookingEngine=true" className="inline-flex items-center justify-center gap-2 sm:gap-3 border-2 border-adani-orange text-adani-orange hover:bg-adani-orange hover:text-white px-6 sm:px-8 py-3.5 sm:py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-xs sm:text-sm">
               {CONTACT_COPY.buttons.book}
             </a>
           </div>
 
           <div>
-            <div className="max-w-2xl mx-auto text-center mb-12">
-              <h2 className="text-3xl font-bold font-heading text-adani-dark mb-3">{CONTACT_COPY.introTitle}</h2>
-              <p className="text-gray-600">{CONTACT_COPY.introText}</p>
+            <div className="max-w-2xl mx-auto text-center mb-10 sm:mb-12">
+              <h2 className="text-2xl sm:text-3xl font-bold font-heading text-adani-dark mb-3">{CONTACT_COPY.introTitle}</h2>
+              <p className="text-sm sm:text-base text-gray-600">{CONTACT_COPY.introText}</p>
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-              <div className="bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm flex flex-col items-center text-center">
-                <MapPin className="w-8 h-8 text-adani-blue mb-4" />
-                <h3 className="text-xl font-bold text-gray-800 mb-2">{CONTACT.propertyName}</h3>
-                <p className="text-gray-600">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 max-w-5xl mx-auto">
+              <div className="bg-gray-50 border border-gray-200 p-6 sm:p-8 rounded-2xl shadow-sm flex flex-col items-center text-center">
+                <MapPin className="w-7 h-7 sm:w-8 sm:h-8 text-adani-blue mb-4" />
+                <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">{CONTACT.propertyName}</h3>
+                <p className="text-sm sm:text-base text-gray-600">
                   {CONTACT.addressLines.map((line, i) => (
                     <span key={i}>
                       {line}
@@ -64,17 +64,17 @@ export default function ContactPage() {
                   ))}
                 </p>
               </div>
-              <div className="bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm flex flex-col items-center text-center">
-                <Phone className="w-8 h-8 text-adani-blue mb-4" />
-                <h3 className="text-xl font-bold text-gray-800 mb-2">Telephone</h3>
-                <p className="text-gray-600">
+              <div className="bg-gray-50 border border-gray-200 p-6 sm:p-8 rounded-2xl shadow-sm flex flex-col items-center text-center">
+                <Phone className="w-7 h-7 sm:w-8 sm:h-8 text-adani-blue mb-4" />
+                <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">Telephone</h3>
+                <p className="text-sm sm:text-base text-gray-600">
                   <a href={CONTACT.telephoneHref} className="font-bold text-adani-blue hover:text-adani-orange">{CONTACT.telephone}</a>
                 </p>
               </div>
-              <div className="bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm flex flex-col items-center text-center">
-                <Mail className="w-8 h-8 text-adani-blue mb-4" />
-                <h3 className="text-xl font-bold text-gray-800 mb-2">{CORPORATE.name}</h3>
-                <p className="text-gray-600">
+              <div className="bg-gray-50 border border-gray-200 p-6 sm:p-8 rounded-2xl shadow-sm flex flex-col items-center text-center">
+                <Mail className="w-7 h-7 sm:w-8 sm:h-8 text-adani-blue mb-4" />
+                <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-2">{CORPORATE.name}</h3>
+                <p className="text-sm sm:text-base text-gray-600">
                   <a href={CORPORATE.telephoneHref} className="font-bold text-adani-blue hover:text-adani-orange">{CORPORATE.telephone}</a>
                   <br />
                   <a href={`mailto:${CORPORATE.email}`} className="text-adani-blue hover:text-adani-orange">{CORPORATE.email}</a>

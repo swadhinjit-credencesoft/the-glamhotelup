@@ -37,11 +37,11 @@ export function PageHero({
         <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url(/images/01.jpg)" }} />
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-adani-dark to-transparent" />
-      <div className="container relative z-10 w-full flex flex-col items-start gap-4">
-        <nav className="flex flex-wrap items-center gap-2 text-sm font-bold tracking-widest uppercase text-gray-400">
+      <div className="container relative z-10 w-full flex flex-col items-start gap-3 sm:gap-4 px-4 sm:px-6 lg:px-8">
+        <nav className="flex flex-wrap items-center gap-1.5 sm:gap-2 text-xs sm:text-sm font-bold tracking-widest uppercase text-gray-400">
           {breadcrumbs.map((crumb, i) => (
-            <div key={i} className="flex items-center gap-2">
-              {i > 0 && <ChevronRight className="w-4 h-4 flex-shrink-0" />}
+            <div key={i} className="flex items-center gap-1.5 sm:gap-2">
+              {i > 0 && <ChevronRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 flex-shrink-0" />}
               {crumb.href ? (
                 <Link
                   href={crumb.href}
@@ -55,9 +55,9 @@ export function PageHero({
             </div>
           ))}
         </nav>
-        <h1 className="text-5xl md:text-7xl font-bold font-heading">{title}</h1>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-bold font-heading break-words leading-tight">{title}</h1>
         {subtitle && (
-          <p className="text-xl max-w-2xl mt-4 text-white/90">{subtitle}</p>
+          <p className="text-base sm:text-lg md:text-xl max-w-2xl mt-2 sm:mt-4 text-white/90 leading-relaxed">{subtitle}</p>
         )}
       </div>
     </section>

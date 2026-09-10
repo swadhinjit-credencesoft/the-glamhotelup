@@ -144,20 +144,20 @@ export default function HotelNearIndiaExpoCentrePage() {
             </div>
           </div>
 
-          <div className="bg-adani-dark text-white rounded-3xl p-8 md:p-12 text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold font-heading mb-4">Plan Your Event Stay</h2>
-            <p className="text-xl text-white/80 max-w-2xl mx-auto mb-8">
+          <div className="bg-adani-dark text-white rounded-3xl p-6 sm:p-8 md:p-12 text-center mb-16">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-heading mb-4">Plan Your Event Stay</h2>
+            <p className="text-base sm:text-lg md:text-xl text-white/80 max-w-2xl mx-auto mb-8 leading-relaxed">
               Tell us your event dates and we&apos;ll help you choose the right room. Call, WhatsApp or book direct.
             </p>
-            <div className="flex flex-wrap justify-center gap-4">
-              <a href={CONTACT.telephoneHref} className="inline-flex items-center gap-3 bg-adani-orange text-white px-8 py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-sm">
-                <Phone className="w-5 h-5" /> {CONTACT.telephone}
+            <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
+              <a href={CONTACT.telephoneHref} className="inline-flex items-center justify-center gap-2 sm:gap-3 bg-adani-orange hover:bg-adani-blue text-white px-6 sm:px-8 py-3.5 sm:py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-xs sm:text-sm shadow-md">
+                <Phone className="w-4 h-4 sm:w-5 sm:h-5" /> {CONTACT.telephone}
               </a>
-              <a href={CONTACT.whatsappHref} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-3 bg-adani-green hover:bg-adani-dark text-white px-8 py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-sm">
-                <MessageCircle className="w-5 h-5" /> WhatsApp Us
+              <a href={CONTACT.whatsappHref} target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 sm:gap-3 bg-adani-green hover:bg-adani-dark text-white px-6 sm:px-8 py-3.5 sm:py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-xs sm:text-sm shadow-md">
+                <MessageCircle className="w-4 h-4 sm:w-5 sm:h-5" /> WhatsApp Us
               </a>
-              <a href="https://bookone.io/The-Glam?bookingEngine=true" className="inline-flex items-center gap-3 border-2 border-white text-white hover:bg-white hover:text-adani-dark px-8 py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-sm">
-                <Navigation className="w-5 h-5" /> Book Direct
+              <a href="https://bookone.io/The-Glam?bookingEngine=true" className="inline-flex items-center justify-center gap-2 sm:gap-3 border-2 border-white text-white hover:bg-white hover:text-adani-dark px-6 sm:px-8 py-3.5 sm:py-4 font-bold rounded-full transition-colors uppercase tracking-wide text-xs sm:text-sm">
+                <Navigation className="w-4 h-4 sm:w-5 sm:h-5" /> Book Direct
               </a>
             </div>
           </div>
