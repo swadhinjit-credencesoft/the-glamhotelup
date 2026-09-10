@@ -9,6 +9,7 @@ import { HotelSchema, OrganizationSchema, WebSiteSchema } from "@/components/seo
 export default function Home() {
   return (
     <>
+      <link rel="preload" as="image" href="/glam-july/glam-4.avif" fetchPriority="high" />
       <HotelSchema />
       <OrganizationSchema />
       <WebSiteSchema />

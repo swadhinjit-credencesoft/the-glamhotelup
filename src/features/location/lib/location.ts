@@ -23,7 +23,7 @@ export const LOCATION_PANELS = [
     stat: "~1.6 KM FROM KNOWLEDGE PARK II METRO",
     linkText: "View Nearby Places",
     link: "/location#nearby",
-    image: "/glam-april/glam-61.jpg",
+    image: "/images/opt/april/glam-61.jpg",
   },
   {
     id: 3,
@@ -32,7 +32,7 @@ export const LOCATION_PANELS = [
     stat: "STYLISH STAYS • KING BEDS • HIGH-SPEED WI-FI",
     linkText: "Explore Rooms",
     link: "/rooms",
-    image: "/glam-april/glam-16.jpg",
+    image: "/images/opt/april/glam-16.jpg",
   },
 ];
 

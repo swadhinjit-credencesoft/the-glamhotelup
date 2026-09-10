@@ -1,9 +1,7 @@
 "use client";
-import { useState, useEffect } from "react";
 import * as Popover from "@radix-ui/react-dialog";
-import { Accessibility, Moon, Sun, Type, RefreshCcw } from "lucide-react";
+import { Accessibility, Type, RefreshCcw } from "lucide-react";
 import { motion, type MotionValue } from "framer-motion";
-import { useTheme } from "next-themes";
 
 type IconColor<T extends string | number = string> = string | MotionValue<T>;
 
@@ -12,32 +10,23 @@ export function AccessibilityBar<T extends string | number = string>({
 }: {
   iconColor?: IconColor<T>;
 }) {
-  const [mounted, setMounted] = useState(false);
-  const { theme, setTheme } = useTheme();
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
   const changeFontSize = (delta: number) => {
     const root = document.documentElement;
     const currentSize = parseFloat(getComputedStyle(root).fontSize);
-    // restrict limits
     if ((delta > 0 && currentSize >= 20) || (delta < 0 && currentSize <= 12)) return;
     root.style.fontSize = `${currentSize + delta}px`;
   };
 
   const resetAccessibility = () => {
     document.documentElement.style.fontSize = "";
-    setTheme("light"); // reset to light
   };
 
   return (
     <Popover.Root>
       <Popover.Trigger asChild>
-        <button 
+        <button
           aria-label="Accessibility Settings"
-          className="p-2 group"
+          className="p-3 -m-3 group"
         >
           <motion.span style={{ color: iconColor }} className="group-hover:!text-adani-orange transition-colors flex">
             <Accessibility className="w-5 h-5 text-inherit" />
@@ -62,45 +51,26 @@ export function AccessibilityBar<T extends string | number = string>({
           <div className="space-y-6">
             <div className="space-y-3">
               <h4 className="text-sm font-semibold text-gray-500 uppercase flex items-center gap-2">
-                <Moon className="w-4 h-4" /> Contrast
-              </h4>
-              <div className="flex gap-2">
-                <button 
-                  disabled={!mounted}
-                  onClick={() => setTheme("light")}
-                  className={`flex-1 py-2 text-sm font-bold rounded border transition-colors ${mounted && theme === 'light' ? 'bg-adani-blue text-white border-adani-blue' : 'bg-gray-50 text-gray-700 border-gray-200 hover:bg-gray-100'}`}
-                >
-                  <Sun className="w-4 h-4 inline mr-1" /> Light
-                </button>
-                <button 
-                  disabled={!mounted}
-                  onClick={() => setTheme("dark")}
-                  className={`flex-1 py-2 text-sm font-bold rounded border transition-colors ${mounted && theme === 'dark' ? 'bg-adani-dark text-white border-adani-dark' : 'bg-gray-50 text-gray-700 border-gray-200 hover:bg-gray-100'}`}
-                >
-                  <Moon className="w-4 h-4 inline mr-1" /> Dark
-                </button>
-              </div>
-            </div>
-
-            <div className="space-y-3">
-              <h4 className="text-sm font-semibold text-gray-500 uppercase flex items-center gap-2">
                 <Type className="w-4 h-4" /> Font Size
               </h4>
               <div className="flex gap-2 text-gray-700">
-                <button 
+                <button
                   onClick={() => changeFontSize(-1)}
+                  aria-label="Decrease font size"
                   className="flex-1 py-2 font-bold bg-gray-50 rounded border border-gray-200 hover:bg-gray-100 transition-colors text-sm"
                 >
                   -A
                 </button>
-                <button 
+                <button
                   onClick={() => { document.documentElement.style.fontSize = ""; }}
+                  aria-label="Reset font size"
                   className="flex-1 py-2 font-bold bg-gray-50 rounded border border-gray-200 hover:bg-gray-100 transition-colors text-base"
                 >
                   A
                 </button>
-                <button 
+                <button
                   onClick={() => changeFontSize(1)}
+                  aria-label="Increase font size"
                   className="flex-1 py-2 font-bold bg-gray-50 rounded border border-gray-200 hover:bg-gray-100 transition-colors text-lg"
                 >
                   +A
@@ -108,7 +78,7 @@ export function AccessibilityBar<T extends string | number = string>({
               </div>
             </div>
 
-            <button 
+            <button
               onClick={resetAccessibility}
               className="w-full flex items-center justify-center gap-2 py-3 bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold rounded transition-colors text-sm mt-4"
             >

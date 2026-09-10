@@ -4,7 +4,6 @@ import { SITE } from "@/lib/config/site";
 import "./globals.css";
 import { SmoothScroll } from "@/components/providers/SmoothScroll";
 import { PageTransition } from "@/components/providers/PageTransition";
-import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 
@@ -57,15 +56,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className={`${poppins.variable} ${openSans.variable} ${barlow.variable}`}>
       <body className="font-body antialiased bg-white text-gray-800">
-        <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-          <SmoothScroll>
-            <Header />
-            <PageTransition>
-              {children}
-            </PageTransition>
-            <Footer />
-          </SmoothScroll>
-        </ThemeProvider>
+        <SmoothScroll>
+          <Header />
+          <PageTransition>
+            {children}
+          </PageTransition>
+          <Footer />
+        </SmoothScroll>
       </body>
     </html>
   );

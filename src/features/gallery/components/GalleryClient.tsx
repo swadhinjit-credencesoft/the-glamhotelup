@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { PageHero } from "@/components/shared/PageHero";
 import { GALLERY } from "@/features/gallery/lib/gallery";
 
@@ -47,9 +48,14 @@ export function GalleryClient() {
                 transition={{ duration: 0.4 }}
                 className="group relative rounded-2xl overflow-hidden aspect-[4/3] bg-gray-200 shadow-sm cursor-pointer"
               >
-                <div
-                  className="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-500"
-                  style={{ backgroundImage: `url(${image.src})` }}
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  fill
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  loading="lazy"
+                  decoding="async"
+                  className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <p className="absolute bottom-4 left-4 right-4 text-white font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
