@@ -108,14 +108,14 @@ export function Header() {
               Book Now
             </Link>
 
-            <AccessibilityBar iconColor={mobileMenuOpen ? "#000000" : textColor} />
+            {/* <AccessibilityBar iconColor={mobileMenuOpen ? "#000000" : textColor} /> */}
 
-            <button aria-label="Toggle Language" className="hidden lg:flex items-center gap-1 group">
+            {/* <button aria-label="Toggle Language" className="hidden lg:flex items-center gap-1 group">
               <motion.span style={{ color: mobileMenuOpen ? "#000000" : textColor }} className="group-hover:!text-adani-orange transition-colors flex">
                 <Globe className="w-5 h-5" />
               </motion.span>
               <motion.span style={{ color: mobileMenuOpen ? "#000000" : textColor }} className="text-sm font-semibold group-hover:!text-adani-orange uppercase">ENG</motion.span>
-            </button>
+            </button> */}
 
             <button
               onClick={() => setSearchOpen(true)}
