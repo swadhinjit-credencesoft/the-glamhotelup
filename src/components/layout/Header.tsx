@@ -4,7 +4,7 @@ import * as NavigationMenu from "@radix-ui/react-navigation-menu";
 import { motion, useScroll, useTransform, useMotionValueEvent } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import { Search, Globe, Menu, X, ChevronDown } from "lucide-react";
+import { Search, Menu, X, ChevronDown } from "lucide-react";
 import { NAVIGATION_ITEMS } from "@/lib/config/navigation";
 import { RoomsMegaMenu } from "./MegaMenu";
 import { SearchOverlay } from "./SearchOverlay";
@@ -108,19 +108,12 @@ export function Header() {
               Book Now
             </Link>
 
-            {/* <AccessibilityBar iconColor={mobileMenuOpen ? "#000000" : textColor} /> */}
-
-            {/* <button aria-label="Toggle Language" className="hidden lg:flex items-center gap-1 group">
-              <motion.span style={{ color: mobileMenuOpen ? "#000000" : textColor }} className="group-hover:!text-adani-orange transition-colors flex">
-                <Globe className="w-5 h-5" />
-              </motion.span>
-              <motion.span style={{ color: mobileMenuOpen ? "#000000" : textColor }} className="text-sm font-semibold group-hover:!text-adani-orange uppercase">ENG</motion.span>
-            </button> */}
+            <AccessibilityBar iconColor={mobileMenuOpen ? "#000000" : textColor} />
 
             <button
               onClick={() => setSearchOpen(true)}
               aria-label="Search"
-              className="group"
+              className="group p-3 -m-3 flex items-center"
             >
               <motion.span style={{ color: mobileMenuOpen ? "#000000" : textColor }} className="group-hover:!text-adani-orange transition-colors flex">
                 <Search className="w-5 h-5" />
@@ -129,7 +122,7 @@ export function Header() {
 
             {/* Mobile Menu Toggle */}
             <button
-              className="lg:hidden p-2"
+              className="lg:hidden p-2.5 -m-2.5 flex items-center"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle Menu"
             >

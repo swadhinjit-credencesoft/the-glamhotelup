@@ -21,7 +21,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   },
   {
     id: 2,
-    image: "/glam-april/glam-17.jpg",
+    image: "/images/opt/glam-17.jpg",
     title: "Comfortable Rooms, Thoughtful Details",
     subtitle: "Deluxe, Luxury and Suite rooms with king beds and private bathrooms",
     ctaText: "Explore Rooms",
@@ -29,7 +29,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   },
   {
     id: 3,
-    image: "/glam-may/glam-1.jpg",
+    image: "/images/opt/glam-1-may.jpg",
     title: "Designed for Business & Leisure",
     subtitle: "Work-friendly spaces, high-speed Wi-Fi and daily housekeeping",
     ctaText: "View Amenities",
@@ -37,7 +37,7 @@ export const HERO_SLIDES: HeroSlide[] = [
   },
   {
     id: 4,
-    image: "/glam-april/glam-62.jpg",
+    image: "/images/opt/glam-62.jpg",
     title: "Near India Expo Centre & Mart",
     subtitle: "Ansal Golf Link-1 • Knowledge Park • Greater Noida",
     ctaText: "Get Directions",

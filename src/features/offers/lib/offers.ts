@@ -24,7 +24,7 @@ export const OFFERS: OfferCard[] = [
     ],
     cta: "Enquire for Corporate Stay",
     link: "/contact",
-    img: "/glam-april/glam-1.jpg",
+    img: "/images/opt/glam-1.jpg",
   },
   {
     id: 2,
@@ -39,7 +39,7 @@ export const OFFERS: OfferCard[] = [
     ],
     cta: "Enquire for Expo Stay",
     link: "/contact",
-    img: "/glam-june/glam-1.jpg",
+    img: "/images/opt/glam-1-june.jpg",
   },
   {
     id: 3,
@@ -54,7 +54,7 @@ export const OFFERS: OfferCard[] = [
     ],
     cta: "Enquire for Long Stay",
     link: "/contact",
-    img: "/glam-may/glam-10.jpg",
+    img: "/images/opt/glam-10-may.jpg",
   },
   {
     id: 4,

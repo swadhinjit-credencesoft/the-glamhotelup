@@ -34,10 +34,10 @@ export default function ReviewsPage() {
       <PageHero
         breadcrumbs={[{ label: "Home", href: "/" }, { label: "Guest Reviews" }]}
         title="Guest Reviews"
-        subtitle="Rated 4.7/5 on Google by 53 reviewers."
+        subtitle="Rated 4.8/5 on Google by 71 reviewers."
         height="h-[50vh] min-h-[400px]"
         overlayClass="bg-adani-dark opacity-80"
-        bgImageStyle={{ backgroundImage: "url(/glam-april/glam-1.jpg)" }}
+        bgImageStyle={{ backgroundImage: "url(/images/opt/glam-1.jpg)" }}
       />
 
       <section className="py-24 bg-white">

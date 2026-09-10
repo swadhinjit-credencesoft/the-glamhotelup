@@ -27,7 +27,7 @@ export default function AboutUsPage() {
         title="About The Glam"
         subtitle="A stylish boutique hotel in Ansal Golf Link-1, Greater Noida."
         height="h-[60vh] min-h-[500px]"
-        bgImageStyle={{ backgroundImage: "url(/glam-april/glam-64.png)" }}
+        bgImageStyle={{ backgroundImage: "url(/images/opt/glam-64.jpg)" }}
       />
 
       <section className="py-24 bg-white relative">

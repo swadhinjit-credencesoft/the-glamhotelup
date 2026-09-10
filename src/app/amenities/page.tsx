@@ -59,7 +59,7 @@ export default function AmenitiesPage() {
         subtitle="Everything you need for a comfortable, productive and relaxing stay."
         height="h-[55vh] min-h-[450px]"
         overlayClass="bg-adani-blue opacity-80"
-        bgImageStyle={{ backgroundImage: "url(/glam-may/glam-1.jpg)" }}
+        bgImageStyle={{ backgroundImage: "url(/images/opt/glam-1-may.jpg)" }}
       />
 
       <section className="py-24 bg-white">
