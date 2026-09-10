@@ -67,6 +67,7 @@ export const SOCIAL_LINKS: {
 export const FOOTER_EXPLORE_LINKS = [
   { label: "Home", href: "/" },
   { label: "Rooms & Suites", href: "/rooms" },
+  { label: "Hotel Near India Expo Centre", href: "/hotel-near-india-expo-centre" },
   { label: "Amenities", href: "/amenities" },
   { label: "Gallery", href: "/gallery" },
   { label: "Location", href: "/location" },
@@ -77,6 +78,7 @@ export const FOOTER_COMPANY_LINKS = [
   { label: "About The Glam", href: "/about-us" },
   { label: "Guest Reviews", href: "/reviews" },
   { label: "FAQ", href: "/faq" },
+  { label: "Blog & Guides", href: "/blog" },
   { label: "Contact Us", href: "/contact" },
   { label: "Book Your Stay", href: "https://bookone.io/The-Glam?bookingEngine=true" },
 ];
@@ -93,6 +95,8 @@ export const POPULAR_PAGES = [
   { label: "Deluxe Room", href: "/rooms/deluxe-room" },
   { label: "Luxury Room", href: "/rooms/luxury-room" },
   { label: "Suite Room", href: "/rooms/suite-room" },
+  { label: "Hotel Near India Expo Centre", href: "/hotel-near-india-expo-centre" },
+  { label: "Hotel Near Pari Chowk", href: "/location/pari-chowk" },
   { label: "Amenities", href: "/amenities" },
   { label: "Location", href: "/location" },
   { label: "Guest Reviews", href: "/reviews" },

@@ -8,7 +8,7 @@ import { ABOUT_INTRO, ABOUT_STATS, ABOUT_CARDS } from "@/features/about/lib/abou
 import { CORPORATE, SITE } from "@/lib/config/site";
 
 export const metadata: Metadata = {
-  title: "About The Glam",
+  title: { absolute: "About The Glam by Sandane Homes | Greater Noida" },
   description:
     "The Glam is a stylish boutique hotel in Ansal Golf Link-1, Greater Noida — comfortable rooms, private bathrooms, high-speed Wi-Fi and a convenient location near India Expo Centre & Mart.",
 };
