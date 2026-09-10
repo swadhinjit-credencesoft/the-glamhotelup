@@ -29,11 +29,6 @@ export function WebSiteSchema() {
     url: SITE.url,
     description: SITE.description,
     publisher: { "@type": "Organization", name: SITE.name },
-    potentialAction: {
-      "@type": "SearchAction",
-      target: `${SITE.url}/search?q={search_term_string}`,
-      "query-input": "required name=search_term_string",
-    },
   };
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }} />;
 }

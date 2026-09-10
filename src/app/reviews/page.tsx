@@ -19,7 +19,7 @@ const THEME_ICONS: Record<string, LucideIcon> = {
 export const metadata: Metadata = {
   title: "Guest Reviews",
   description:
-    "The Glam is rated 4.7/5 on Google with 53 reviews. Guests praise our cleanliness, helpful staff, peaceful environment, location and comfortable rooms.",
+    "The Glam is rated 4.8/5 on Google with 71 reviews. Guests praise our cleanliness, helpful staff, peaceful environment, location and comfortable rooms.",
 };
 
 export default function ReviewsPage() {

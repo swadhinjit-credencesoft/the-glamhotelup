@@ -4,7 +4,7 @@ import { POLICY_PAGES } from "@/features/legal/lib/pages";
 
 export const metadata: Metadata = {
   title: "Terms of Use",
-  description: "Terms of use for the The Glam website.",
+  description: "Terms of use for The Glam website.",
 };
 
 export default function TermsOfUsePage() {

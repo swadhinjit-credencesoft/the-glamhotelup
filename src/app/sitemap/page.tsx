@@ -5,7 +5,7 @@ import { SITEMAP_PAGES } from "@/features/legal/lib/pages";
 
 export const metadata: Metadata = {
   title: "Sitemap",
-  description: "Sitemap of the The Glam website.",
+  description: "Sitemap for The Glam website.",
 };
 
 export default function SitemapPage() {
