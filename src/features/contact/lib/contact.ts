@@ -3,7 +3,6 @@ export const CONTACT_PAGE = {
   introTitle: "Get In Touch",
   introText:
     "We are always ready to hear from you. For bookings, enquiries and feedback, reach out to our team — we will be happy to assist.",
-  formTitle: "Send us a message",
   buttons: {
     call: "Call Now",
     whatsapp: "WhatsApp",

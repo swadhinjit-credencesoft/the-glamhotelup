@@ -35,7 +35,7 @@ export function WelcomeSection() {
                   ★ 4.7
                 </div>
                 <div className="text-white text-sm font-bold uppercase tracking-wider">
-                  53 Google Reviews
+                 The Glam 
                 </div>
               </div>
             </motion.div>

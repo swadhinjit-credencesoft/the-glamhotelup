@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Phone, MessageCircle, Navigation, MapPin } from "lucide-react";
+import { Mail, MapPin, MessageCircle, Navigation, Phone } from "lucide-react";
 import { PageHero } from "@/components/shared/PageHero";
 import { BreadcrumbSchema } from "@/components/seo/Schema";
 import { CONTACT, CORPORATE, MAPS, SITE } from "@/lib/config/site";
@@ -45,77 +45,41 @@ export default function ContactPage() {
             </a>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-            <div>
-              <h2 className="text-3xl font-bold font-heading text-adani-dark mb-6">{CONTACT_COPY.introTitle}</h2>
-
-              <div className="space-y-8">
-                <div className="flex items-start gap-4">
-                  <MapPin className="w-6 h-6 text-adani-blue mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-2">{CONTACT.propertyName}</h3>
-                    <p className="text-gray-600">
-                      {CONTACT.addressLines.map((line, i) => (
-                        <span key={i}>
-                          {line}
-                          <br />
-                        </span>
-                      ))}
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <Phone className="w-6 h-6 text-adani-blue mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-2">Telephone</h3>
-                    <p className="text-gray-600">
-                      <a href={CONTACT.telephoneHref} className="font-bold text-adani-blue hover:text-adani-orange">{CONTACT.telephone}</a>
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <MapPin className="w-6 h-6 text-adani-blue mt-1 flex-shrink-0" />
-                  <div>
-                    <h3 className="text-xl font-bold text-gray-800 mb-2">{CORPORATE.name}</h3>
-                    <p className="text-gray-600">
-                      <a href={CORPORATE.telephoneHref} className="font-bold text-adani-blue hover:text-adani-orange">{CORPORATE.telephone}</a>
-                      <br />
-                      <a href={`mailto:${CORPORATE.email}`} className="text-adani-blue hover:text-adani-orange">{CORPORATE.email}</a>
-                    </p>
-                  </div>
-                </div>
-              </div>
+          <div>
+            <div className="max-w-2xl mx-auto text-center mb-12">
+              <h2 className="text-3xl font-bold font-heading text-adani-dark mb-3">{CONTACT_COPY.introTitle}</h2>
+              <p className="text-gray-600">{CONTACT_COPY.introText}</p>
             </div>
 
-            <div className="bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm">
-              <h3 className="text-2xl font-bold font-heading text-adani-dark mb-6">{CONTACT_COPY.formTitle}</h3>
-              <form className="space-y-4">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-sm font-bold text-gray-700 mb-1">First Name *</label>
-                    <input type="text" className="w-full h-12 px-4 border border-gray-300 rounded focus:border-adani-blue focus:ring-1 focus:ring-adani-blue outline-none" required />
-                  </div>
-                  <div>
-                    <label className="block text-sm font-bold text-gray-700 mb-1">Last Name *</label>
-                    <input type="text" className="w-full h-12 px-4 border border-gray-300 rounded focus:border-adani-blue focus:ring-1 focus:ring-adani-blue outline-none" required />
-                  </div>
-                </div>
-                <div>
-                  <label className="block text-sm font-bold text-gray-700 mb-1">Email *</label>
-                  <input type="email" className="w-full h-12 px-4 border border-gray-300 rounded focus:border-adani-blue focus:ring-1 focus:ring-adani-blue outline-none" required />
-                </div>
-                <div>
-                  <label className="block text-sm font-bold text-gray-700 mb-1">Phone</label>
-                  <input type="tel" className="w-full h-12 px-4 border border-gray-300 rounded focus:border-adani-blue focus:ring-1 focus:ring-adani-blue outline-none" />
-                </div>
-                <div>
-                  <label className="block text-sm font-bold text-gray-700 mb-1">Message *</label>
-                  <textarea rows={4} className="w-full p-4 border border-gray-300 rounded focus:border-adani-blue focus:ring-1 focus:ring-adani-blue outline-none" required></textarea>
-                </div>
-                <button type="submit" className="h-12 px-8 w-full bg-adani-blue text-white font-bold rounded hover:bg-adani-dark transition-colors">
-                  Submit
-                </button>
-              </form>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+              <div className="bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm flex flex-col items-center text-center">
+                <MapPin className="w-8 h-8 text-adani-blue mb-4" />
+                <h3 className="text-xl font-bold text-gray-800 mb-2">{CONTACT.propertyName}</h3>
+                <p className="text-gray-600">
+                  {CONTACT.addressLines.map((line, i) => (
+                    <span key={i}>
+                      {line}
+                      <br />
+                    </span>
+                  ))}
+                </p>
+              </div>
+              <div className="bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm flex flex-col items-center text-center">
+                <Phone className="w-8 h-8 text-adani-blue mb-4" />
+                <h3 className="text-xl font-bold text-gray-800 mb-2">Telephone</h3>
+                <p className="text-gray-600">
+                  <a href={CONTACT.telephoneHref} className="font-bold text-adani-blue hover:text-adani-orange">{CONTACT.telephone}</a>
+                </p>
+              </div>
+              <div className="bg-gray-50 border border-gray-200 p-8 rounded-2xl shadow-sm flex flex-col items-center text-center">
+                <Mail className="w-8 h-8 text-adani-blue mb-4" />
+                <h3 className="text-xl font-bold text-gray-800 mb-2">{CORPORATE.name}</h3>
+                <p className="text-gray-600">
+                  <a href={CORPORATE.telephoneHref} className="font-bold text-adani-blue hover:text-adani-orange">{CORPORATE.telephone}</a>
+                  <br />
+                  <a href={`mailto:${CORPORATE.email}`} className="text-adani-blue hover:text-adani-orange">{CORPORATE.email}</a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
