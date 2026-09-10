@@ -2,8 +2,6 @@
 import Link from "next/link";
 import { ArrowRight, Star } from "lucide-react";
 import { motion } from "framer-motion";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
 import { REVIEW_STATS, REVIEW_QUOTES } from "@/features/reviews/lib/reviews";
 
 export function ReviewSection() {
@@ -72,28 +70,27 @@ export function ReviewSection() {
           ))}
         </motion.div>
 
-        {/* Mobile Swiper */}
-        <div className="md:hidden">
-           <Swiper slidesPerView={1.1} spaceBetween={20}>
-             {REVIEW_QUOTES.map((review) => (
-                <SwiperSlide key={review.id}>
-                  <div className="rounded-2xl border border-gray-100 shadow-sm p-8 h-full flex flex-col bg-gray-50/50">
-                    <div className="flex items-center gap-1 mb-4 text-adani-orange">
-                      {Array.from({ length: 5 }).map((_, i) => (
-                        <Star key={i} className="w-4 h-4 fill-current" />
-                      ))}
-                    </div>
-                    <p className="text-gray-700 font-body leading-relaxed flex-1 italic mb-6">
-                      &quot;{review.quote}&quot;
-                    </p>
-                    <div className="pt-5 border-t border-gray-100">
-                      <p className="font-bold text-adani-dark">{review.author}</p>
-                      <p className="text-gray-400 font-bold text-sm">{review.context}</p>
-                    </div>
-                  </div>
-                </SwiperSlide>
-             ))}
-           </Swiper>
+        {/* Mobile Scroller */}
+        <div className="md:hidden flex gap-5 overflow-x-auto snap-x snap-mandatory pb-4 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+          {REVIEW_QUOTES.map((review) => (
+            <div
+              key={review.id}
+              className="snap-center shrink-0 w-[85%] rounded-2xl border border-gray-100 shadow-sm p-8 flex flex-col bg-gray-50/50"
+            >
+              <div className="flex items-center gap-1 mb-4 text-adani-orange">
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star key={i} className="w-4 h-4 fill-current" />
+                ))}
+              </div>
+              <p className="text-gray-700 font-body leading-relaxed flex-1 italic mb-6">
+                &quot;{review.quote}&quot;
+              </p>
+              <div className="pt-5 border-t border-gray-100">
+                <p className="font-bold text-adani-dark">{review.author}</p>
+                <p className="text-gray-400 font-bold text-sm">{review.context}</p>
+              </div>
+            </div>
+          ))}
         </div>
 
         <div className="mt-12 flex justify-center">
