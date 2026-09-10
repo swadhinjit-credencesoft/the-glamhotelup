@@ -30,7 +30,8 @@ export const CONTACT = {
   country: "India",
   telephone: "+91 8796321915",
   telephoneHref: "tel:+918796321915",
-  whatsappHref: "https://wa.me/918796321915",
+  whatsappHref:
+    "https://api.whatsapp.com/send?phone=918796321915&text=*This%20is%20an%20Enquiry%20from%20%3A*%20BookOne%20Bookmax%0AHotel%20Name%3A%20The%20Glam%2C%0AProperty%20Id%3A%203624%2C%0AexternalSite%3A%20WebSite%2C%0AAddress%3A%20FG25%2BWP%2C%2Cansal-golf-link-1%2CGreater%20Noida%2CIndia",
   email: "info@hoteltheglam.com",
 };
 
@@ -58,7 +59,7 @@ export const SOCIAL_LINKS: {
   href: string;
   icon: "whatsapp" | "facebook" | "instagram" | "email";
 }[] = [
-  { label: "WhatsApp", href: "https://wa.me/918796321915", icon: "whatsapp" },
+  { label: "WhatsApp", href: CONTACT.whatsappHref, icon: "whatsapp" },
   { label: "Facebook", href: "https://www.facebook.com/SandaneHomes", icon: "facebook" },
   { label: "Instagram", href: "https://www.instagram.com/sandane_homes/", icon: "instagram" },
   { label: "Email", href: "mailto:info@hoteltheglam.com", icon: "email" },

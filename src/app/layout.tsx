@@ -6,6 +6,7 @@ import { SmoothScroll } from "@/components/providers/SmoothScroll";
 import { PageTransition } from "@/components/providers/PageTransition";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
+import { WhatsAppFloat } from "@/components/layout/WhatsAppFloat";
 
 const ogImage = "/images/01.jpg";
 
@@ -63,6 +64,7 @@ export default function RootLayout({
           </PageTransition>
           <Footer />
         </SmoothScroll>
+        <WhatsAppFloat />
       </body>
     </html>
   );
